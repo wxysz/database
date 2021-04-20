@@ -1,0 +1,12 @@
+
+에너지(Energy)	창조(Creation)	파괴(Distruction)
+
+불(Fire)	번개(Lightning)	흙(Earth)	물(Water)	바람(Wind)	독(Poison)
+
+
+빛(Light)	어둠(Dark)
+
+흡수(Amber)	방출(Release)
+얼음(Ice)		금속(Metal)	자기장(Magnetic)	소리(Sound)	연기(Smoke)	생각(Mind)
+
+자연(Nature)	속도(Speed)	형태(Form)	시간(Time)	공간(Space)	중력(Gravity)	그림자(Shadow)
