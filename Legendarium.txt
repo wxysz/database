@@ -1,0 +1,684 @@
+<반지의 제왕> 고유명사 및 주요 표기 지침 사전
+* 머리글
+다음의 내용들을 참조하여 주십시오. 
+1. 모든 고유명사는 일단 이 사전을 참조하여 옮겨주되, 이때의 고유명사는 요정어를 비롯한 다른 언어의 고유명사뿐만 아니라 영어로 된 고유명사도 해당됨. 물론 더 좋은 역어가 있으면 제시해 주기 바람. 
+2. 발음표기에 대해서는 원칙적으로 톨킨이 부록에서 제시한 방식대로 따르면 되나 고대영어, 난쟁이어 등에서 다소 예외사항들이 있으므로 주의할 것. 
+3. 난쟁이어는 특히 kh, th 발음 등에서만 유의한다면 큰 문제는 없을 것으로 사려됨. 
+4. 고대영어(로한어) 등은 때로는 뜻으로 옮기고 때로는 소리로 옮기는데, 현대영어화된 단어들은 뜻으로 옮기는 것이 원칙임. 이런 유형의 단어들에 대해서는 일단 Tolkien Compass의 ‘가이드’를 확인하고 나면 번역 여부를 확인할 수 있음
+5. 개별단어가 요정어인지, 고대영어인지, 난쟁이어인지 확인은 지난 번에 전해준 Tolkine Dictionary와 인터넷의 아르다 백과사전을 참조하면 도움을 받을 수 있음. 
+6 고유명사 붙여쓰기: 예컨대 High Elves를 ‘높은 요정’이라고 하면 고유명사 느낌을 주지 않으므로 띄어쓰기를 하지 않는 방식(‘높은요정’)으로 고유명사 효과를 유도함. 
+7. 하이픈은 원칙적으로 사용하지 않기로 하나 불가피한 경우 사용함. 
+8. ch 사운드가 자주 등장하는데, 일단은 독어식이 아닌 영어식으로 [k]로 표기하기로 함. 
+9. 영어 발음의 thin--에 나오는 th 발음과 같은 경우는 ‘시옷’으로 표기하기로 함. 10. 요정어에 복수형이 많이 사용되는데, 빈도가 많은 쪽에 따라 일부는 단수형을, 일부는 복수형을 사용하기로 함. 
+
+Accursed Years of Sauron's Dominion	사우론이 지배하는 저주의 세월
+After the Darkening of Valinor	발리노르가 어두워진 뒤(풀어썼음)
+Age of Awakening	눈뜸의 시대
+Ages of Chaining	구금의 시대
+Ages of Darkness	암흑의 시대
+Ages of the Lamps	등불의 시대
+Ages of the Stars	별들의 시대
+Ages of the Trees	나무의 시대
+Aglarond	아글라론드
+Ainulindale: 아이눌린달레. 아이누들의 내력을 담은 책으로 추정됨. Ainur 아이누. “성스런 이들”의 뜻. 아이누/발라/마이아. 하지만 단수형 ‘아이누’의 표기는
+거의 없다. Aiwendil  아이웬딜. 라다가스트의 마이아 이름
+Akallabeth  아칼라베스.   the Downfall of Numenor---바다속으로 빠졌으니 ‘침몰’이라
+고 해야 할 듯. Alfirin 알피린. 신다린..    a Golden Flower
+Almaren 알마렌(섬) the Isle of Almaren
+Alqualonde  알쿠아론데.  요정들이 불사의 땅에 세운 세 도시 중의 하나.  Alqua: =swan
+Aman  아만.  Blessed란 뜻
+Amanyar 아만야르. “아만의 요정들”의 뜻 퀘냐(yar: 복수형접미사)
+Ambarkanta  암바르칸타  ambar: =doom
+Amon Amarth  아몬 아마르스.   amon: =hill    =Mount Doom
+Amon Hen  아몬 헨 .  Hill of the Eye
+Amon Lhaw  아몬 라우  Hill of Hearing
+Amon Rudh 아몬 루드. “bald hill" 대머리산. Amon Uilos  아몬 우일로스  Mount Everwhite
+Amroth 암로스. 요정어
+Anarion 아나리온. 퀘냐(anar:sun, ion:남성접미사)
+Ancalagon 앙칼라곤/*안칼라곤. 흑룡 앙칼라곤(Ancalon the Black). “rushing jaws"의 뜻. 요정어(anca:턱-anka'lagon)
+Andor  안도르
+Andram  안드람
+Anduin River  안두인강/때로는 the Great River  ‘대하’(大河)로 옮기는 것도 용인
+Andunie  안두니에.   누메노르 서쪽의 항구 도시
+Andustar 안두스타(르)
+Angband 앙그반드/*앙반드.  별명은 Iron-Prison(강철감옥)
+Angmar  앙그마르/*앙마르.   ang: =iron
+Angrist   앙그리스트/*앙리스트
+Annals of Valinor  발리노르 연대기/ chronology와 구분이 필요할 듯/연표
+Annatar   안나타르.  사우론이 스스로에게 부여한 이름. Anor the Fire-golden  황금의 불 아노르
+Apanonar 아파노나르(인간). “나중 난 이들”의 뜻
+Aragorn I 아라고른 1세. Aratar 아라타르. the eight chiefs of Valar “고귀한 이들”의 뜻의 퀘냐
+Archet  아쳇. 호빗 마을 이름. chet: =woods
+Arda  아르다
+Argonath  아르고나스
+Arien 아리엔
+Armenelos  아르메넬로스. 누메노르의 산기슭에 있는 도시이름. 왕들의 도시란 뜻. army of the Captains of the West 서부연합군
+Arnor  아르노르
+Arwen  아르웬
+Asea Aranion 아세아 아라니온. “왕들의 잎새”라는 뜻. 퀘냐(신다린, 로한: 아셀라스)
+Ash Mountains  잿빛산맥
+Atanatari 아타나타리. “인간의 시조들”의 뜻. 퀘냐
+Atani 아타니. “나중 난 이들”의 뜻. 퀘냐
+Athelas 아셀라스
+Aule 아울레. Avallone   아발로네
+Avari 아바리. “거역한 이들(unwilling)"의 뜻. 퀘냐
+Avathar  아바사르
+Azaghal 아자그할/*아자할, *아자갈. 벨레고스트의 난장이왕. 난쟁이어의 gh는 이렇게 읽기
+로 통일함. 크하잣둠도 마찬가지. Azanulbizar  아자눌비자르
+Azog 아조그. 오르크왕. Backshot Row  골목아랫길/*백숏거리
+Bag End  골목쟁이집/*백엔드.   시공주니어의 ‘호비트’에서 채택하고 있음. Baggins  골목쟁이집안/*배긴스.  골목쟁이는 골목과 같은 뜻. Balar  발라르. the Isle of Balar.  Belerian  인근.  Valar와 혼동하지 말 것. Balchoth 발코스/*발호스. 신다린
+bald hill   대머리산
+Balin 발린
+Balrogs 발로그. 신다린. “demons of might(힘의 악마로 번역)"의 뜻
+Banakil 바나킬(단수). 호비트를 일컫는 서방어. 
+Barad-dur    바랏두르/*바라드두르 *바랏-두르.  오해나 발음의 문제가 없는 한 붙여쓰기
+로 함. Barazinbar  바라진바르.  크하자드둠 근처의 산
+barbarian  야만/미개  (때에 따라 적절하게)
+Bard the Bowman 명궁 바르드. 로바니언어(고대영어)
+Bardings 바르드족. -ing는 복수형. (고대영어)/<호비트> 바드족
+Barrow Downs  고분산
+Barrow-Wights. 고분악령. 
+Barrowlands  고분지대
+Bats 박쥐
+Battle of Five Armies 다섯군단 전투/*5개 군대의 전투. 연합군이 아님. Battle of Sudden Flame  돌발화염의 전투  (Dagor Bragollach 다고르 브라골라크)
+Battle of the Camp 진지의 전투
+Battle of Unnumbered Tears  한없는눈물의 전투.  고유명사임을 밝히기 위해 붙여쓰기로
+함. Battle Under the Stars 별빛속의 전투
+Bay of Lune  룬(Lune)만(灣).   Rhun(내해)과 혼동하지 말 것. Belain 발란(벨라인). 발라(발라르). “powers(신들?)"의 뜻. 신다린
+Beleg the Strongbow 센활 벨레그
+Belegaer  벨레가이르
+Belegost  벨레고스트
+Beleriand  벨레리안드
+Belfalas  벨팔라스
+Beorn  베오른. 로바니언어(고대영어:인간, 스칸디나비아어:곰)
+Beornings 베오른족. (고대영어 혹은 스칸디나비아 계통)
+Beren 베렌.
+Bifur 비푸르. Big Folk 장다리족/큰 사람.(호비트들이 인간들에 대해, 허우대만 컸지 하는 짓이 엉성하고
+서툴다는 뜻으로 지어부른 이름)<반지:큰 사람>
+Bilbo Baggins 골목쟁이집안 빌보/*배긴스네 빌보/*빌보 배긴스.  일단 이렇게 해보고 더
+생각하기로 함. black gate 암흑의 문
+Black Land of Mordor  모르도르의 검은 땅
+black mace  검은 철퇴.  발로그의 무기
+Black Numenoreans 검은누메노르인(엘다와 발라 들에게 반역하고 누메노르가 파멸한 뒤
+로는 사우론과 연합한 부류.)<반지:검은 누메노르인>을 따르기로 함. Black Realm of Mordor 모르도르 검은 제국
+Black Riders 흑기사
+Blue Mountains  청색산맥
+Boars 멧돼지
+Bofur 보푸르. Bolg 볼그. 오르크왕. 오르크어. Bombur 봄부르. Boromir 보로미르. 아마도 신다린 (bor, mir)
+Brambles of Mordor 모르도르의 가시나무
+Brandywine River 브랜디와인강--번역해야 하나 좋은 역어를 찾지 못하여 일단 그냥 두었
+음. 톨킨의 설명을 참조할 것. Bree  브리.  ‘둔덕’이라는 의미이나 번역하지 말라는 톨킨의 지침이 있음. breed 만들다, 번식하다.  문맥에 따라 적절하게 번역. Brethil 브레실. 자작나무. 신다린. Bridge of Stonebow  석궁교.   브랜디와인강을 지나는 동부대로상의 다리. Brown Lands   갈색땅
+Buckland 노룻골/*노루목. Bucklebury Ferry 노루요새 선착장
+Bywater 강변
+Cair Andros 카이르 안드로스
+Calacirya  칼라키랴
+Calaquendi 칼라퀜디. Calimehtar 칼리메타르
+Caras Galadon  카라스 갈라돈
+Carcharoth 카르카로스/*카르하로스. 앙그반드의 늑대. 신다린(carch:fang)
+Carrock  바우바위
+Celebdil   켈레브딜/*켈렙딜
+Celeborn 켈레보른. 신다린.(celeb:silver)
+Celebrant  켈레브란트
+Celebrian 켈레브리안. 신다린. Celebrimbor 켈레브림보르. 신다린.
+Cerin Amroth  케린 암로스
+Change of the world 세상의 대변동/*세상의 변화/*세계의 지각변동
+chief servant   심복.  대개 모르고스나 사우론의 심복을 가리킬 때 사용됨. chieftain 족장/*부족장. 아르노르 왕조의 혈통이 끊어졌을 때 혈통을 이어간 자들. 아라고
+른의 선조들. Circles of the World 세상의 영역/*테두리
+Cirdan the Shipwright   조선공 키르단.  Lord Cirdan은  ‘키르단왕’으로 표기함. Cirith Gorgor  키리스 고르고르
+Cirith Ungol  키리스 웅골
+citadel of stars  별들의 성채.  Osgiliath의 별칭
+Cold-Drakes 냉룡
+Coldfell  얼어붙은벌판
+Combe  쿰. deep narrow valley 고대영어로 쿰 혹은 코움. conceive 생각으로 만들어내다(창조하다)---문맥에 따라 적절하게 번역. Corsairs 해적. Cotton 초막골집안(cottage+town)
+council of war  전쟁회의. Count of Time began 시간을 헤아리기 시작하다/ 연대를 기록하기 시작하다
+Cracks of Doom   운명의 틈/틈새/구멍. 적절한 것을 골라 줄 것.  절대반지가 만들어진
+곳. Crebain 크레바인.  신다린. Crissaegrim  크릿사에그림
+Crows 까마귀(cf: raven-철새까마귀. Culumalda 쿨루말다. “golden-red"의 뜻. Curunir  쿠루니르. Saruman의 마이아 이름. Dagor-os Giliath  다고르오스 길리아스
+Dagorlad 다고를라드
+Dain I 다인 1세. Dale  계곡/*데일.  고민 끝에 ‘계곡’으로 결정함. 번역해야 되는 단어. Dark Elves 어둠의 요정들. 발라의 나무를 본 적이 없는 요정들(↔빛의 요정들).
+Dark Enemy 검은 적
+dark kingdom 암흑의 왕국
+dark lord   ‘암흑의 군주’로 정리한 바 있는데, 때로는 멜코르를 때로는 사우론을 가리키는
+혼란이 있음. Dark Tower  암흑의 탑
+Darn Dum(앙그마르의 성채)  다른 둠
+Dead Marshes  죽음늪
+Dead Men of Dunharrow 검산오름의 넋들/*던해로의 사자들. 이말은 고대어 Dunharg의
+현대형이므로 번역을 해야 하고, 뜻은 hill-temple이라고 함. 검산오름에서 ‘검’은 神을 의미
+하고, 산과 오름은 제주 토박이말로 ‘산’을 가리킴.  전혀 새로운 말이라서 오해의 소지가
+있겠으나 톨킨 원래의 취지에는 부합함.
+Deagol  데아골
+Deep Elves 지식의 요정족/*지혜의 요정족. 놀도르를 지칭하는 말. Denethor I 데네소르 1세. Dimholt  딤홀트
+dimrill dale 어둔내 골짜기/*딤릴 골짜기
+Dior 디오르. Dol Amroth  돌 암로스
+Dol Guldur  돌 굴두르
+Dome of Stars  별들의 돔
+Dor-lomin   도르로민
+Dori 도리. Doriath  도리아스. 벨레리안드에 있는 신다르 왕국
+Dorwinions 도르위니온족. 신다린(dor+wine++ion)
+Dragon-helm 용 투구
+Dragons 용
+Draugluin 드라우글루인. werewulf. 아마도 신다린(draug:wolf, luin:blue)
+dreams and vision 꿈과 계시-로리엔. 꿈의 영주. Druadan Forest  드루아단 숲
+Druedain 드루에다인. 드루아단숲의 사람들. 신다린(단수형 Druadan은 주로 숲이름에 쓰였
+습니다)
+Dulin 둘린. 나이팅게일. “밤의 가인”이란 뜻의 신다린. Dumbledors 덤블도르족/*덤블도어족. 호비트의 시에 나오는, 아마도 상상의, 종족. (TB)
+Dunedain 두네다인(단수형 두나단). 주로 복수형으로 쓰입니다. 신다린
+dungeon   지하감옥.   사우론이 누메노르인들에게 끌려가서 갇혀 있었던 곳. Dunlendings 던렌딩/*던랜드인. 로한어. 톨킨은 통째로 던렌딩이라고 둘 것을 당부한 바 있
+음.. 고대영어 dun: 언덕, dunn: 가무잡잡한).  유사한 모양의 복수형 단어들은 다음과 같이
+표기하도록 함. Easterling 동부인. Eorlings 에오를족. Beorning 베오른족. Barding 바르드
+족. 사람이름일 경우 이렇게 밝혀서 ‘족’을 붙이고 던렌딩의 경우는 그냥 두도록 함. 다음의
+복수형 표기도 참조할 것. 로히림. 하라드림. 가우로스. 글람호스. Durin I 두린 1세
+Dwalin 드왈린
+Dwarf: 난쟁이          Dwarves 난쟁이족. Dwimmerlaike 드윔메를라이케/*드위멀라익/*망령. 로한어. 고대영어dwimor: illusion에서
+파생된 중세어 dweomerlaik가 원형. 뜻으로 옮기거나 발음으로 읽을 수 있겠는데, <반지의
+제왕>에서는 드위멀라익으로 읽었음. Dwimorberg  드위모르베르그
+Ea, the World that Is: 존재하는 세계, 에아
+Eagles 독수리
+Earendil the Mariner  수부 에아렌딜/*해상왕 에아렌딜
+Earendil 에아렌딜. 퀘냐(ear:sea, dil:lover of)
+East Elves 동쪽요정. 거역한 이들.
+East Lorien  동로리엔
+Easterlings 동부인들
+Echoing Mountains  메아리산맥
+Echoriath 에코리아스.  Ecthelion  엑셀리온
+Edain 에다인(복수). 벨레리안드에 찾아온 인간들을 지칭한 말. 신다린. Edhil 에딜(단수:Edhel). 요정족. 신다린
+Edoras  에도라스
+Eglath 에글라스. 텔레리를 지칭. “버림받은(egla)”의 뜻. (ath, 집합형 어미)
+Ekkaia  엑카이아
+Elanor 엘라노르. “sunstar"라는 뜻의 꽃. 신다린(el, anor)
+Eldalie 엘달리에. 엘다르(the people of the Eldar).
+Eldalonde  엘다론데. 누메노르 서쪽의 항구도시
+Eldamar  엘다마르
+Eldar 엘다르. 요정족. 퀘냐
+Elendil 엘렌딜.  Elendil the Tall   장신의 엘렌딜
+Elendili 요정의 친구들. 누메노르의 반역 때 엘다와 발라에 대한 신의를 지킨 이들. Elessar  엘렛사르
+elevenhome   요정의 고장
+Elfwine the Fair 아름다운 아일브위네(?). 고대영어로, 요정의 친구라는 뜻. 뜻으로 번역하
+면, Elendili와 혼동될 여지가 있어서, 음으로 읽되 고어형을 기준으로 읽었음. Aelfwine
+Elladan and Elrohir 엘라단과 엘로히르
+Elrond and Elros 엘론드와 엘로스.  쌍둥이 형제. elven-lore 요정 전승(반지: 요정의 지식?), elvish 요정어(?)
+Elven-Smiths 보석세공요정/*대장장이요정, *요정대장장이.   Eregion의 Noldor를 가리킴. Elves 요정
+Elwe Singollo 엘웨 싱골로
+Elwing the White 하얀 엘윙
+Elwing 엘윙
+Emyn Muil  에뮌 무일
+Enchanted Isles  마법의 섬
+Encircling Sea 에워두른 바다
+Encirlcling Mountains 에워두른 산맥
+Engwar 엥과르. 인간. “병약한 이들”의 뜻. 요정어
+Ents 엔트
+Entwash  엔트워시
+Entwood  엔트숲
+Eomer 에오메르
+Eonwe 에온웨,----------- Herald of Manwe 만웨의 사자(使者)란 별칭
+Eorl 에오를. 로한어(고대영어)
+Eorlingas 에오를족.
+Eotheod 에오세오드족(The Eotheod). 로한인. 로한어. Eowyn 에오윈. 로한어(고대영어)
+Erebor  에레보르
+Ered Lithui 에레드 리수이
+Eregion  에레기온
+Eriador  에리아도르
+Eru the One: 유일자 에루
+Eruhini 에루히니. 인간과 요정족. “일루바타(에루)의 자손”의 뜻. 퀘냐----일루바타르
+Erusen 에루센. 인간과 요정족. “에루의 자손”이라는 뜻. Eryn Rasgalen  에륀 라스갈렌
+Esgaroth 에스가로스
+Este 에스테. Ether  영기/*정기.  air와 함께 세상을 둘러싸고 있는 것으로 간주된 물질. Ettenmoor  에튼무어
+Evermind  영념화
+Fair Elves 참요정. 가장 아름답고 발라에게 가장 큰 사랑을 받았던(?) 요정 바냐르. Fair Folk 참무리. Fair Folk 참종족
+Faithful, the  충직한 자들.  누메노르의 반역 때 발라들에 대한 신의를 지키고 중원으로
+넘어온 이들. Falas  팔라스
+Falathrim 팔라스림. 텔레리 가운데 팔라스 해안에 남은 요정들. 신다린(rim, 집합형 어미)
+Fallohides 하얀금발 혈통/*팔로하이드(pale yellow pelt의 뜻)
+Falmari 팔마리. 바다요정, 텔레리. Fangorn Forest  팡고른 숲
+Far Downs  ???
+Far Harad  남끝 하라드
+Faramir 파라미르. Fastitocalon 파스티토칼론/*패스티토캘른. (호비트의 시(nonsense rhyme)에 나오는 상상
+의 동물. TB)
+Feanor 페아노르. 신다린
+Felarof 펠라로브/*펠라로프. 에오를의 말. Fell Winter in 2911 혹한의 겨울
+Fellowship of the Ring  반지원정대    Fili 필리
+Finarfin 피나르핀
+Finduilas 핀두일라스
+Fingolfin 핑골핀
+Fingon 핑곤
+Finrod Felagund 핀로드 펠라군드
+Finwe 핀웨
+fire-breathing dragons  불을 내뿜는 용들
+Fire-Drakes 화룡
+Firimar 피리마르. 인간. “유한한 생명을 지닌 이들(mortal people)"의 뜻. First Age of the Sun 태양 제1시대
+First born “처음 난 이들”. 요정족. First War  최초의 전쟁
+Firth of Drengist  드렝기스트 하구
+Fladrif 플라드리브/*--프
+Flame Imperishable: 불멸의 불꽃
+Flies of Mordor  모르도르의 파리
+followers 뒤에오는이들-----인간을 가리킴.  Hildorien→뒤에 온 이들. Ford of Bruinen 브루이넨 여울
+Ford of Isen   이센여울목
+Forgoil 포르고일. 던랜드인이 로한인을 얕잡아 부르는 이름. “밀짚머리/짚대가리”. 던랜드
+어
+Forlindon   포르린돈.  폴린돈이 아니라. 어근을 살려서.   Forlond도 마찬가지(포르론드)
+Formenos  포르메노스
+Fornost  포르노스트
+Forochel   포로켈/*포로헬
+Forodwaith 포로드와이스. 북부인. 신다린. Frodo Baggins 골목쟁이집안 배긴스/*배긴스집안 프로도/*프로도 배긴스/. 역시 일단 이렇
+게 해놓고 더 생각해 보기로 함. Galadhrim 갈라드림. 로리엔의 요정들. “나무 민족"의 뜻. 신다린. Galadriel 갈라드리엘
+Galenas 갈레나스. 연초. 신다린
+Gallows-weed 끈끈이주검 (TB)
+Gandalf 간달프. 논란의 여지가 많지만 ‘간달프’로 하기로 함. Gates of Gondor  곤도르의 관문/*곤도르의 문. Argonath의 다른 이름. Gates of Kings  왕들의 관문.  Argonath를 가리킴. Gaurhoth 가우로스/*늑대인간
+Gelion River  겔리온 강
+Ghan-buri-Ghan 간부리간
+Giants 거인족. 엔트, 트롤, 올로그하이 따위
+Gil-Galad  길갈라드
+Gimli 김리
+Gladden Fields  창포벌판/*글래든 평원. ‘창포강’도 있음. Glamhoth 글람호스. 요정들이 오르크를 지칭하는 말. “시끄러운 무리”라는 뜻
+Glaurung 글라우룽
+Glittering Caves 찬란한 동굴/*반짝이는 동굴.   요정어 Aglarond의 의미. Globed 구형으로 통일(구체가 아니라)
+Gloin 글로인
+Glorfindel 글로르핀델
+glorious battle 영광의 전투
+Gnome 노움/*그노메
+go into the shadows  어둠에 떨어지다
+Goblins 고블린
+Goldberry 금딸기
+Golden Hall   황금궁전. 로한의 왕의 거처
+Golden Wood of Lothlorien  황금숲 로스로리엔
+Gollum 골룸/*호비트: 꿀꺽이
+Golodhrim 골로드림. 놀도르를 지칭하는 신다르어. Gondolin  곤돌린
+Gondolindrim 곤돌린드림. 하라드림 등에 맞추자면 이렇게 하는 것이 원칙. Gondor Men 곤도르인. 신다린(gon;stone, dor:land).
+Gondor: 곤도르
+Gonnhirrim 곤히림. 난쟁이족. “돌의 장인들”이라는 뜻. 신다린
+Gorbag 고르바그
+Gorcrows 송장까마귀
+Gorgoroth  고르고로스
+Gorgun 고르군. Gothmog 고스모그
+Great Battle  대전투. War of Wrath와 함께 붙어 다니는 어구
+Great Eagles  큰독수리/*왕독수리
+Great East Road   동부대로
+Great East West Road  동서대로
+Great Forest 큰숲/*대삼림
+Great Journey of the Eldar  엘다르의 장정(長征)
+Great Lake 대호수
+great March of the Ents  엔트들의 대진군
+Great Music and the Vision 위대한 음악과 비전
+Great North-South Road   남북대로
+Great Plague   대역병.  사우론이 아르노르와 곤도르에 퍼뜨린 역병
+great spider  큰거미/*왕거미 *대거미
+Great Spider Ungoliant  여왕거미 웅골리안트/ Ungoliant와 Shelob만 여왕거미로 표기하
+고 나머지는 ‘큰거미’로 표기.(Great Spider)
+Great Worms called Dragon. 용이라 불리는 거대 파충류
+Green Mound of Ezellohar   푸른 둔덕 에젤로하르. 발라의 나무가 자란 곳. Green-elves 초록요정. 라이퀜디. Greenwood the Great  초록큰숲/*그린우드 대삼림. 신다르 요정들이 동쪽에 왕국을 세운
+곳. Greenwood만 나오면 ‘초록숲’으로 줄여서 표기함. Greenwood the Great 초록큰숲/*그린우드대삼림
+Grey Havens  회색항구
+Grey Mountains  회색산맥
+Grey-elves 회색요정. 신다르. grinding ice  "살을 에는 얼음“ Grishnakh 그리슈나크/*흐. 오르크어(누메노르어와 오르크어의 kh=요정어의 ch)
+Gror  그로르. 난쟁이 지도자
+Gulf of Lune  룬(Lune)만/*반달만.  Rhun(바다, 내해)과 구별하여야 함.--Lune의 경우는
+괄호 속에 영어표기를 부기함(Lune).
+Gwaihir the Windlord 바람의 왕 과이히르. 신다린
+Gwaith-i-Mirdain 과이스-이-미르다인.(dan-dain) “보석세공자들”의 뜻. 신다린. 하이픈을
+떼면 너무 이상하게 보일 것 같아서 붙였으나 떼고 쓸 수도 있음. Gwindor 귄도르
+Haladin 할라딘 가문. Half-elven   반요정
+Half-Orcs 반오르크
+Halflings 반인족. 호빗족. Hall(Halls of Mandos)  만도스의 ‘성’ 혹은 ‘궁정’ Harad  하라드
+Haradrim 하라드림. 하라드인. 신다린(harad, rim). 남부인
+Haradwaith 하라드와이스. 하라드 땅과 그 주민. 신다린(harad, waith)
+Harfoot 털발 혈통/*하풋족. 샤이어 방언(hair-feet)
+Harlindon   하르린돈/* 할린돈..  Harlond  하르론드. Haunted Mountain  유령산/* 유령의 산
+haunted pass  유령고개/*귀신 고개/*유령 관문(ꡔ반지ꡕ)
+Helcar  헬카르. 램프가 서 있는 내해의 이름. Helcaraxe 헬카락세     the Grinding Ice
+Helm Hammerhand 무쇠주먹 헬름
+Helm's Deep  헬름 협곡
+Helmingas 헬름족. 로한어. Hidden Kingdom   숨은왕국/*비밀의 왕국.  곤돌린의 별명. hidden stone.  숨은 돌/*비밀의 돌. 곤돌린의 의미. High Captain of Utumno  우툼노의 수령, Gothmog the Balrog를 가리킴. High King  대왕.   요정, 인간 모두에게 해당하는 명칭. High Pass  높은고개. 안개산맥을 넘는 세 도로 중의 하나. High-Elves 높은요정. (요정 중 엘다르가 가장 강력한 힘을 지녔다고 붙인 이름)
+Hildor 힐도르. 인간을 지칭하는 요정어. “뒤에 오는 이들"의 뜻
+hill of sorcery   마법의 산
+hill of the eye  눈의 산. 아몬 헨의 다른 이름. Hillmen 고지인
+Hithlum  히슬룸/*히스룸
+Hoarwell   흰샘강
+Hobbit hole  호빗굴집(혹은 굴집)/*호빗굴 *구멍집/  
+Hobbiton Hill 호빗골 언덕
+Hobbiton: 호빗골/*호비튼
+Hobbits 호빗/*호비트
+Hobgoblins 호브고블린 great goblins
+Holbytlan 홀뷔틀라(홀뷔틀란). 단수와 복수형을 모두 밝히는 경우 복수형을 ( )안에 넣었습
+니다. Holbytlan 홀뷔틀란(홀뷔틀라의 복수형). 로한어(Kuddukan의 고대영어번역)
+Hold of Dunharrow   검산오름 요새
+Hollin  호랑가시나무땅/*홀린
+Hollowbold  할로볼드
+Hornburg  나팔산성/*혼버그
+Hornrock 나팔바위
+horse-lords  말의 귀인들
+Huan 후안
+Hummerhorns 허머혼. 빌보의 시에 나오는 상상의 곤충. (TB)
+Huorns 후오른
+Hurin the Troll-slayer  트롤잡는 후린
+Iarwain Ben-adar 야르와인 벤아다르. 톰 봄바딜을 가리킴. Illuin  일루인.  발라들이 세운 거대한 램프
+Ilmare 일마레
+Ilmarin  일마린
+Iluvatar: 일루바타르. 단수이기 때문에 ‘르’를 붙여 주는 것이 맞음. Imladris: 임라드리스
+Imrahil 임라힐
+Ingwe 잉궤/*잉웨
+Iron Hills  철산/*강철산.  강철산맥과 구별하기 위해. 위치가 많이 다름. Iron Mountains 강철산맥
+Iron-Prison 강철감옥. 앙그반드의 별명
+Isengard 아이센가드/*이센가(르)드. 역시 논란이 많은 단어. 톨킨 자신의 리딩에서도 그랬
+고, 영화 <반지의 제왕>에서도 ‘아이센가드’로 읽었음. Isil the Sheen   은빛의 이실
+Isildur 이실두르
+Istari 이스타리. 마법사들. 복수형 이스타르가 단수형. Kelvar 켈바르. Khamul 카물/*크하물. 나즈굴. 아마도 오르크어. Khand 칸드/*한드 *크한드.  난쟁이어가 아닌 듯함. Khazad 크하자드/*카자드/*하자드. 난쟁이족. 난쟁이어의 kh는 논란의 여지가 없지 않으나
+‘크ᄒ’로 표기하기로 함. Khazad-dum  크하잣둠/*카잣둠.  원칙적으로는 ‘크하자드둠’이 맞으나 너무 읽기가 힘들어
+서 축약하였음. Khuzdul  크후즈둘/*쿠즈둘, *후즈둘.  난쟁이들의 언어
+Kili 킬리
+Kine of Araw 아라우의 황소/*키네/*카인. 오로메의 황소. (Araw=Orome)---kine는 영어
+보통명사
+King of Arda 아르다의 왕. 만웨. 공기의 군주. 바람의 군주. Kingdom under the Mountain  산밑왕국.  외로운 산 밑 스라인 1세의 왕국. Kingsfoil  임금님풀
+Kinstrife  종족분쟁.   곤도르 왕국 내에서 벌어진 혈족간의 전쟁
+Kirinki 키링키. Kraken 크라켄. Kud-Dukan 쿳두칸/*쿠드두칸. 호빗족. 역시 읽기 좋도록 축약하였음. Lady of the Heavens  하늘의 여왕
+Laiquendi 라이퀜디. 옷시리안드의 초록요정들. (텔레리의 일부.lai:바다)
+Lairelosse 라이렐롯세. 퀘냐(laire:여름 혹은 초록의)
+Lake Men 호수인. Landroval 란드로발. 신다린
+Last Alliance of Elves &Men 요정과 인간 최후 동맹
+Last Desert 최후의 사막
+Laurelin the Golden  황금의 라우렐린. ‘나무의 시대’의 두 나무 중의 하나. Laurinque 라우링퀘. Leaflock 잎새머리
+Legolas: 레골라스
+Leprechaun: 레프러콘. Light Elves 빛의 요정. Lindar 린다르. 텔레리. “노래하는 이들”의 뜻. 퀘냐. Lindon  린돈.  길-갈라드의 왕국
+Lissuin 릿수인. Little Folk  꼬마족. 인간과 요정들이 호비트를 칭하는 이름. Lomelindi 로멜린데. 나이팅게일. 퀘냐(lomelinde의 복수)
+Lonely Mountain  외로운산. Tol Eressea(외로운섬도 마찬가지)  붙여써서 고유명사를 나
+타내기로 함. 이하 마찬가지. Long Lake  긴호수
+Long Winter  긴겨울(2758년)
+Lord Cirdan  키르단왕/*키르단 공
+Lord of Darkness   암흑의 군주  혹은 Dark Lord
+Lord 군주, King 왕, High King 대왕, Prince 영주.  하지만 절대적인 구분은 못됨. Lorellin  로렐린
+Lorien 로리엔
+Lossoth 롯소스/*로소스. 설인족. 신다린(loss, hoth)
+Lothlorien: 로스로리엔/*로슬로리엔   golden wood 황금숲
+Loudwater  큰물소리강
+Lune River   룬(Lune)강
+Luthien 루시엔
+Mahanaxar  마하낙사르.    =Ring of Doom   운명의 ‘궁전’.  원형의 장소이므로. Maiar 마이아
+Mallorn 말로른. 신다린
+Mallos 말로스. 신다린(mal, los)
+Mandos 만도스
+Mansbane  재앙
+mansion of the high air  창공의 저택
+Manwe 만웨
+Mark 마크. Riddermark에서 온 말. 적당한 옮김말이 생각나지 않아 일단 그냥 두었음. Marn-nu-Falmar 마른누팔마르
+Master of Angband  앙그반드의 영주.   사우론을 가리킴. master of doom 운명의 군주. 만도스. Mearas 메아라. (단수형-메아르) 고대영어형은 Mearh. 그래서 톨킨 매니아들은 메아르라고
+읽어야 한다고 했지만, 다른 여러 사전에서는 Meara라고 쓰고 있음. 톨킨은 고대영어를 꼭
+그대로 옮기지 않고 자기 나름대로 다듬기도 했기 때문에 ‘메아라'로 표기하는 것이 나을
+듯. Meduseld  메두셀드
+Melian the Maia 마이아 멜리안
+Melkor 멜코르
+Men 인간   barbarian races라고 나오는데,  미개한 종족
+Menegroth of the Thousand Caves   천의 동굴 메네그로스
+Meneltarma  메넬타르마.  누메노르의 산. 하늘의 기둥이란 뜻. Mere of Cuivienen  쿠이비에넨 호수. 못/소택지/늪의 뜻도 있으나 일단은 ‘호수’로. Mere of Dead Faces  환영(幻影)의 소택지/늪---------- swampy란 관련표현이 있으므
+로 ‘늪’이 어떨지. Meriadoc Brandybuck 강노루네 메리아독/*메리아독 브랜디벅
+Mewlips 뮬립. 호비트의 시에 나오는 상상의 종족. 아마도 오르크.(TB)
+Michel Delving 큰말/*미첼델빙
+Mickelburg  미켈버그
+Middle-Earth: 중원/*가운데땅/*중간계.   일단은 중원으로 해놓고 더 생각해 봅시다. Midgewater Marsh  각다귀늪
+Mim 밈
+Minas Anor  미나스 아노르
+Minas Ithil  미나스 이실
+Minas Morgul  미나스 모르굴
+Minas Tirith: 미나스 티리스
+Mirkwood   어둠숲/*머크우드(Taur e-Ndaedelos---forest of the great fear)
+Mirrormere  거울호수/*미러미어
+Misty Mountains  안개산맥
+misty peaks  안개연봉/*안개봉우리.   요정들이 안개산맥을 부르는 이름.
+Mithlond   미슬론드/*미스론드
+Mordor  모르도르
+Morgoth 모르고스
+Moria  모리아
+Moriquendi 모리퀜디. 그늘의 요정(dark elves).
+Mormegil the Black Sword 검은 검 모르메길
+Mortal Land  유한한 생명의 땅
+mortal years   인간력
+Mount Doom  운명의 산
+Mountains of Terror    공포의 산맥
+Mountains of Wind  바람산맥
+Mouths of Anduin: 안두인 하구
+Mumakil 무막(무마킬) 올리폰트/*올리파운트
+Mundburg 성널오름(문드부르그//),
+Nahar 나하르
+Nandor 난도르. "뒤돌아선 이들“의 뜻. Nargothrond  나르고스론드
+Narsil   나르실
+Naugrim 나우그림. 난쟁이족. “왜소한 종족”이라는 뜻. 신다린. Nazgul 나즈굴. 반지악령. 사우론무리의 언어.(nazg+gul)
+Near Harad  근하라드
+Necromancer   강령술사.   사우론의 다른 이름. 돌 굴두르에 숨어 있을 때. Neekerbreekers 찍찍이. Neldoreth 넬도레스. 너도밤나무/너도밤나무숲. 신다린(neldo:beech)
+Nenya  네냐.  요정의 세 반지 중의 하나. Nessa 넷사/*네사
+Nessamelda 넷사멜다. Nienna 니엔나/*니에나
+Nimrodel white lady 순백의 숙녀 님로델(원래 실버로드강의 지류 이름)
+Nine Rings of Mortal Men  인간의 아홉 반지. mortal: 유한한 생명의(을 지닌)
+Niphredil 니프레딜(niphred:pale, dil:point).
+Noegyth Nibin 노이귀스 니빈. 작은난쟁이족. Nogrod  노그로드
+Noldor 놀도르. ‘현인들’의 뜻. 퀘냐.<반지:놀도르족>
+Noontide of the Blessed   축복받은 이들의 전성기. 나무의 시대 둘째 천년(불사의 땅)
+Nori 노리
+North Road  북부로
+Northern Waste 북부의 황무지
+Northmen  북부인
+Numenor: 누메노르
+Numenoreans 누메노르인.
+Nurn  누른
+Oakenshield  참나무방패.   Thorin의 별칭. Oghor-hai 오고르하이/*오호르하이(?black speech에서의 gh 발음). Woses를 일컫는 오르
+크어. Oin 오인
+Oiolaire 오이올라이레. 안전한 항해와 귀환을 기원하는 초록 가지. 퀘냐 (oio:ever,
+laire:summer, green)
+Oiolosse  오이올롯세.  snow ever white
+Old Forest  묵은숲/*올드포리스트
+Old Man Willow 영감버들/*버드나무 영감
+Oliphaunts 올리폰트/*올리파운트
+Olog-hai 올로그하이/*올록하이
+Olorin 올로린 (간달프)
+Olvar 올바르. 땅속에 뿌리를 박고 생장하는 모든 것들. Olwe 올웨
+Ondolinde  온돌린데.  곤돌린의 요정어 이름. One Ring   절대반지/*유일반지 *한반지. 우리가 처음 만든 이 용어가 더 나은 듯함. Onodrim 오노드림. 엔트족. 신다린. Orcs 오르크/*오크. 로한어(고대영어. <반지>에서는 현대영어식으로 오크라 읽었지만, Middle earth의 제종족이 이들을 호명한 이름들을 보면 공통적으로 ‘r' 음가를 포함하고 있
+음. 신다린:orch, 사우론무리: uruk, Woses: gorgun)
+Ori 오리
+Ormal 오르말.  남쪽에 있는 램프의 이름. Orocarni 오로카르니. 별칭 적색산맥
+Orodruin  오로드루인. Orome 오로메
+Orthanc  오르상크
+Osgiliath  오스길리아스
+Osse 옷세/*오세 Osse of the Waves  파도의 왕 옷세
+Ossiriand  옷시리안드
+Ost-in-Edhil  오스트인에딜
+Palantiri  팔란티르/*팔란티리.  -i는 복수형.  실마릴도 Silmarilli란 표현 있음. Paths of the Dead  넋의 길
+Peace of Arda 아르다의 평화
+Pelargir: 펠라르기르
+Pelennor Fields  펠렌노르 평원
+Pelori Mountains  펠로리 산맥.  발라들이 서부로 가서 세운 산맥. Peregrin Took 툭집안 페레그린/*페레그린 툭
+Periannath 페리안나스(perian:halfling, ath; a host). 호비트. 신다린
+Petty-dwarves 작은난쟁이족. Phantoms of the Dead Marshes 죽음늪의 유령들
+Pipe-weed 곰방담배초/*연초
+Pit(s)   지하요새
+Ponies 조랑말
+Prancing Pony Inn  깡총거리는 조랑말 (여관)
+Pukel-men 푸켈인. 로한어. Quendi 퀜디. 요정족. “말하는 이들”이라는 뜻. Quenta Silmarillion  =the history of the Silmarils
+Quest of  the Ring   반지의 모험/*반지의 여행, *반지의 여정. 프로도 일행의 탐구여행을
+가리킴. Quickbeam 날쌘돌이/*빠른나무
+Radagast 라다가스트
+Radbug 라드부그. Ramdall  람달.   벨레리안드 동부의 지명.  wall's end라는 뜻. Rangers of Ithilien 이실리엔 순찰대
+Rangers of the North 북부의 순찰자
+Rauros Falls 라우로스 폭포
+Ravenhill  까마귀산
+Ravens  큰까마귀/*갈가마귀
+Red Book of Westmarch 서끝말의 붉은 책/*웨스트마치의 붉은 책
+Red Mountains 적색산맥
+Redhorn  붉은뿔
+Redhorn Pass 붉은뿔 고개
+Redwater   붉은강
+Region 레기온
+Rekindling   램프가 꺼진 뒤로 다시 별을 통해 불을 밝혔다는 점에서 이렇게 표현한 듯. Rekindling of the Stars 별들이 다시 빛남(풀어쓸 것)
+Rhovanion  로바니온
+Rhun  룬
+Riddermark 리더마크(원래는 현대영어화된 고대영어이므로 뜻으로 옮기는 것이 원칙인데, 적당한 이름을 찾지 못했음....)
+Ring of Doom  운명의 궁전
+Ringbearer   반지의 사자.   프로도 배긴스를 가리킴. Ringil 링길/*린길, *링일. 램프가 서 있는 내해(內海)의 이름. Rings of Power   힘의 반지들
+Ringwraiths 반지악령
+Rivendel:   깊은골/*리븐델 *리벤델.     Imladris  'deep-cloven-valley'
+River Sirannon 시란논강
+River-women  강의 정령(?spirit.)
+Roac the Raven  큰까마귀 로악
+Rogin 로긴. 워세. 로한어
+Rohan: 로한
+Roheryn 로헤륀
+Rohirrim horsemen  로한의 기수(騎手)들. 다른 곳에서는 riders of Rohan이라고 되어 있
+음. Rohirrim 로히림. 에오세오드인. 로한인. “말의 귀인들”이란 뜻
+Romenna  로멘나.  누메노르 동부의 항구
+royal stone  왕들의 바위/*대왕석.  Argonath의 뜻. Ruling Stewards  섭정/*집사장들.   곤도르가 멸망한 후 통치를 대신하던 인물들
+Running Rivers  달리는강
+Samwise Gamgee 감지네 샘와이즈/*샘와이즈 감지
+Sarn Ford   사른 여울. 샤이어 남쪽에 있음. Saruman 사루만
+Sauron 사우론    Sauron the sorcerer   마술사 사우론?
+Scatha the Worm 용 스카사/*용 샤사. ‘해를 끼치는 자’ 로한어(고대영어)
+Sea-elves 바다요정. 텔레리. Seat of Hearing 청각의 망루(ꡔ반지의 제왕ꡕ). 아몬 라우 정상의 의자
+Seat of Seeing  시각의 망루(ꡔ반지의 제왕ꡕ). 아몬 헨 정상의 의자
+Secondborn 나중 난 이들. Seeing Stone   천리안의 돌
+Seregon 세레곤. 신다린
+Shadow Host 넋의 군단/*혼백의 군단
+Shadowfax 샤두팍스. 적당한 번역을 끝내 찾지 못했음. 그림자는 약하고, 질풍은 너무 의
+역. 그래서 음으로 읽되 고어형(고대영어 그대로는 아니고 톨킨이 다듬어낸 고어형)을 기준
+으로 읽었음. shadowfax, snowmane 이 두 말은 회색 털, 흰 갈기 하는 식으로 색깔을 들
+어 이름을 붙인 것 같음. 그런데 우리 옛말에 색채를 나타내는 어휘가 풍부하지 않아서 꼭
+그 단어를 찾기가 어렵고, 색의 상징을 어느 정도 포기하면 질풍, 설원(백설) 정도로 옮길
+수 있겠으나 너무 원어와 거리가 멀어짐. Shadowy Mountains  그림자산맥/*그늘진산맥
+Shadowy Sea 그늘의 바다
+Shagrat 샤그랏
+Shaping cloak 둔갑망토/*변신의 망토
+Shelob 쉴로브/*쉴롭/*실롭.  쉴로브가 쉴롭보다 ‘외래어의 우리말 표기 원칙’에 부합함. Shepherds of Trees  나무목자. 엔트들의 별칭. Ship-kings of Gondor  곤도르의 선박왕들
+Shire  샤이어/*고을, *골. 원칙대로 하자면 번역하여야 하지만 너무 굳어진 말이기 때문에
+그대로 두기로 함. Silvan Elves 숲의 요정. Silver Fountains   은으로 된 분수
+Silver Tree of the Valar  발라의 은빛나무
+Silverlode River   은강/*실버로드 강        lode: 고어로 =way
+Silvertine 은빛첨봉
+Simbelmyne 심벨뮈네. evermind. 로한어.
+Sindar 신다르. 회색요정. 신다린(sinda:gray)
+Sirion River  시리온강
+Skinbark 나무껍질가죽/*껍질거죽
+Smaug the Golden 황금빛 스마우그
+Smeagol  스메아골
+Snaga 스나가
+Snowmane 스나우마나(snawmana: 고대영어)----------샤두팍스와 마찬가지로 고대영어
+식으로 읽음. 설원, 흰눈, 흰서리 드의 번역어를 생각해 볼 수 있음. Snowmen 설인. Southrons 남부인. 하라드림. Speaker of the Doom   운명의 전달자
+Speakers 요정족. 퀜디. Sphere of the World 세상의 영역/*세상의 궤도
+Spider's Pass 거미고개
+spirit 영/정령/영혼/   나무나 강의 경우는 ‘정령’ 발라와 같이 신들에 준하는 경우는 ‘영’으
+로 번역함. Spring of Arda 아르다의 봄
+Staddle  스태들.   호빗 마을. Stone troll  돌 트롤
+Stoors 풍채 혈통/*스투어족(stout, heavier and broader)
+Straight Road   직항로
+Strider 성큼걸이. 혹시 더 좋은 역어가 있을지 생각해 보시기 바람. Sunland  태양의 땅
+Swans 백조
+Swarthy Men 어두운 인간들. 동부인. 제 3기에는 남부인(하라드림).
+Swertings 어둑사람들. 남부인을 일컫는 샤이어 방언.<반지:흑인족>(정확히 말하면 동부인
+도 남부인도 ‘흑인’은 아닙니다.)
+Taniquelasse 타니퀠랏세. 퀘냐(Taniquetil, lasse)
+Taniquetil  타니퀘틸
+Tareldar 타르엘다. 높은 요정. 신다린 (tar:high)
+Tarks 타르크. Tasarion 타사리온. 버드나무. 퀘냐(tasare:willow, ion:? land 혹은 son of)
+Telain   탈란/*텔라인. 단수형 ‘탈란’으로 표기. Telcontari 텔콘타르 왕조. Strider의 퀘냐식 표현. Teleri 텔레리. “최후부의”라는 뜻. Telperion the White  백색의 텔페리온.  ‘나무의 시대’의 한쪽 나무
+Thangorodrim  상고로드림
+Thargelion  사르겔리온
+Tharkun  트하루쿤/*사르쿤 *타르쿤. 난쟁이들이 간달프를 부르는 이름. the (dark) mountains of Mordor (Spider's Pass 217)  모르도르 산맥
+the Undead 불사의 영들/*죽지 않은 자들
+the woman of shadows 어둠의 여인(수링웨실)
+Theoden 세오덴
+Thingol 싱골
+ThorinI 소린 1세
+Thorondor 소론도르
+Thrain I 스라인 1세
+Thrushes 지빠귀
+Thuringwethil 수링웨실
+Tilion 틸리온
+Time of Awakening 눈뜸의 시대/*깨어남의 시대
+Timeless Halls: 영원의 궁정
+Tindomerel  틴도메렐
+Tindrock  깎아지른 바위/*부싯돌 *부싯바위? <----tinder + rock?   Tol Brandir의 다
+른 이름
+Tinuviel 티누비엘. 나이팅게일. 신다린
+Tirion  티리온. Tol Eressea  톨 에렛세아.  Lonely Isle 외로운섬/*외딴섬
+Tol Sirion   톨 시리온
+Tol-in-Gaurhoth  톨인가우로스
+Tom Bombadil 톰 봄바딜
+Torogs 토로그. 트롤. 신다린
+Tower of Sorcery  마법의 탑. Minas Morgul의 다른 이름
+Towers of Teeth  이빨탑
+Towers of Wraiths   악령의 탑
+Tree-garth of Orthanc  오르상크의 안뜰
+Treebeard 나무수염
+Trees of Light  빛의 나무
+Trees of the Valar 발라의 나무. Tree of sivler. 은빛나무 Tree of gold 금빛나무. Anar
+the Fire Golden 황금의 불 아나르. Isil the Sheen 은빛의 이실. Trolls 트롤. Trollshaws  트롤숲
+Tulkas 툴카스
+Tuna  투나.  hill of Tuna 투나 ‘언덕’으로 표기. 도시 티리온이 선 곳. Tuor 투오르
+Turgon 투르곤
+Turin Turambar  투린 투람바르
+Turtle-Fish 거북물고기
+Ugluk 우글룩
+Uilos 우일로스. 심벨뮈네. 신다린
+Uinen 우이넨/*위넨
+Ulairi 울라이리. 나즈굴. 신다린(u:not, laire: summer, 복수형 i)
+Ulmo 울모
+Umanyar 우만야르. “아만에 속하지 않은 이들”의 뜻. (u+(a)man+yar(복수형어미))
+Umbar  움바르.  누메노르인들이 가운데땅에 세운 항구도시. Undying Lands: 불사의 땅
+Ungoliant 웅골리안트/*운골리안트
+Unlight of the Ungoliant 웅골리안트의 장막/*어둠/*암영
+Uruk-hai 우루크하이. 원래는 ‘우룩하이’가 적절해 보이지만 Arda 사전을 비롯한 여러 사
+전의 발음기호를 보면 -u- 사운드를 길게 발음하도록 -oo-로 표기하고 있음. Uruks 우루크
+Uruloki 우룰로키. 불뿜는 용. 퀘냐(ur:heat, loke:snake, i:아마도, 복수형)
+Utumno 우툼노. 강철산맥 너머에 멜코르가 세운 악의 요새. Vaire 바이레
+Valar 발라(들). the Powers(신들?). 퀘냐-------powers 권능으로 통일
+Valaraukar 발라라우카르. 발로그. 퀘냐(vala:power, rauko:domon, 복수형)
+Vales of Anduin   안두인 계곡
+Valimar  발리마르. 발라들이 세운 도시
+Valinor 발리노르. ‘발라들의 땅’이란 뜻. 발라들이 세운 두 번째 왕국. Vampires 흡혈박쥐. Vana 바나
+Vanyar 바냐르. (vanya+r)
+Varda 바르다   the Star Queen, Queen of the Stars 별들의 여왕, 때로는 Queen of the
+Heavens로도 불림. Vardarianna  바르다리안나
+Variags 바리아그들. 로바니언어. Void 공허/*무/*허공  분노의 전쟁에서 패한 모르고스가 갇힌 곳. Wainriders 전차몰이족. Walls of Night   밤의 벽
+Walls of the World  세상의 벽
+Wandlimb 바람가지---엔트의 부인
+War of (Great) Jewels  보석전쟁/*대보석전쟁
+War of Powers  권능들의 전쟁
+War of the Dwarves and Orcs 난쟁이와 오르크 간의 전쟁
+War of the Ring   반지전쟁
+War of Wrath  분노의 전쟁
+Wargs  와르그
+watcher in the water 호수의 파수꾼
+Watcher 파수꾼
+watchers 파수병(키리스웅골 탑의 파수병)
+Watchful Peace  불안한 평화
+Watchwood   감시림. 엔트들이 이센가드에 심은 숲. Water, the   워터강
+Weather Hills 폭풍산맥
+Weathertop  폭풍산
+Werewolf: 늑대인간
+Wereworms  괴수족
+West Elves 서쪽요정. 엘다르. Western Sea  서해/서쪽바다.  때에 따라 적절하게 사용. Westernesse   서쪽나라/*서역 Archaic translation of Numenor.....  우리가 처음에 ‘서
+역’으로 번역하였으나 다시 한번 검토해 주기 바람. Westfarthing   서파딩
+Westmansweed 서인초
+whips of flame 불의 채찍. 발로그의 무기
+White Hand  흰손.   the army of White Hand  (마법사 사루만의) 흰손의 군대
+White Horn Mountains  흰뿔산맥
+White Tower  백색탑
+White Tree of Numenor 누메노르의 흰 나무. Nimloth the Fair 흰 님로스. White Tree of the Eldar 요정의 흰 나무. Galathilion
+White Trees of Gondor 곤도르의 흰 나무
+Wild Men 야생인. Woses. 반지의 제왕에서는 ‘야만인’이라고 번역하였으나 부정적인 함의
+를 줄인다는 뜻에서 ‘야생인’이 어떨까 싶으니 검토 바람. Willows 버드나무
+Wilwarin 윌와린. ‘나비’라는 뜻의 퀘냐. 나비 형상의 성좌. 아마도 카시오피아?
+Window of the Sunset  일몰의 창/*석양의 창/*해넘이창
+Winged Beasts 날개돋친 짐승.(반지:날개달린 생물. 확인요)
+Winged Dragons  날개달린 용
+Witch-king 마술사왕
+Witch-kingdom of Angmar 앙그마르의 마술사왕국
+Witches 마술사
+Withywindle 버들강/*넌출강
+Wizards 마법사
+Wold 월드, Wolfhounds 늑대사냥개/*늑대잡이개
+Wolfriders 늑대기수/*늑대기사
+Wolves 늑대
+Wood-Elves 숲의 요정. (=Silvan Elves)
+Woodmen (머크우드의) 숲속사람들.(반지:나무꾼들. ∨확인요)
+Worms 파충류
+Wormtongue 뱀혓바닥
+Woses 워세. 드루아단숲의 야생인. 로한어. Wraiths  악령
+Wulf   울프. 인명. Yavanna the fruit giver 열매를 주는 야반나(mother of harvest 풍요의 여신) Yavanna 
+the Fruitful  풍요의 여신 야반나. Yavannamire 야반나미레. “야반나의 보석”이라는 뜻의 나무. 퀘냐(mire:보석)
+Years of Bliss  축복의 시대. 나무의 시대 첫 시기.(첫 천년)
+Yrch 위르크/*위르흐. 오르크무리. 신다린.(반지:위르흐)
+Zirak-zigil  지락지길
