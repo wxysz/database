@@ -25,7 +25,7 @@ Accursed Years of Sauron's Dominion	사우론이 지배하던 저주의 세월
 After the Darkening of Valinor	발리노르가 어두워진 뒤. 발리노르의 두 나무(텔페리온과 라우렐린)가 모스고르와 웅골리안트에의해 파괴되어 세상 어두워지고 태양이 떠오르기까지의 50 년
 Age of Awakening	눈뜸의 시대
 Ages of Chaining	구금의 시대
-Ages of Darkness	암흑의 시대. Long Night/* the Darkening of Valinor 멜코르(Melkor)가 중간계의 군주로 통치하고 모든 중간계가 어둠에 휩싸였던 시대
+Ages of Darkness	암흑의 시대. 긴 밤(Long Night)/* 발리노르의 암흑(the Darkening of Valinor) 멜코르(Melkor)가 중간계의 군주로 통치하고 모든 중간계가 어둠에 휩싸였던 시대
 Ages of the Lamps	등불의 시대. 일루인과 오르말이 빛나던 시대
 Ages of the Stars	별들의 시대
 Ages of the Trees	나무의 시대
@@ -43,7 +43,7 @@ Ambarkanta	암바르칸타  ambar: =doom
 Amon Amarth	아몬 아마르스.   amon: =hill    =Mount Doom
 Amon Hen	아몬 헨 .  Hill of the Eye
 Amon Lhaw	아몬 라우  Hill of Hearing
-Amon Rudh	아몬 루드. “bald hill" 대머리산.
+Amon Rudh	아몬 루드. 이명 “bald hill" 대머리산.
 Amon Uilos	아몬 우일로스  Mount Everwhite
 Amroth	암로스. 요정어
 Anarion	아나리온. 퀘냐(anar:sun, ion:남성접미사)
@@ -83,7 +83,6 @@ B 색인
 Backshot Row	골목아랫길/*백숏거리
 Bag End	골목쟁이집/*백엔드.   시공주니어의 ‘호비트’에서 채택하고 있음. Baggins  골목쟁이집안/*배긴스.  골목쟁이는 골목과 같은 뜻. Balar  발라르. the Isle of Balar.  Belerian  인근.  Valar와 혼동하지 말 것.
 Balchoth	발코스/*발호스. 신다린
-	bald hill 대머리산
 Balin	발린
 Balrogs	발로그. 신다린. “demons of might(힘의 악마로 번역)"의 뜻
 Banakil	바나킬(단수). 호비트를 일컫는 서방어. Barad-dur    바랏두르/*바라드두르 *바랏-두르.  오해나 발음의 문제가 없는 한 붙여쓰기로 함.
@@ -832,7 +831,7 @@ Years of Bliss	축복의 시대. 나무의 시대 첫 시기.(첫 천년)
 Yrch	위르크/*위르흐. 오르크무리. 신다린.(반지:위르흐)
 
 X 색인
-X
+
 
 Z 색인
 Zirak-zigil	지락지길
