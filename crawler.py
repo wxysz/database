@@ -12,7 +12,7 @@ print('뉴스기사 스크래핑 시작')
 url = 'https://www.yna.co.kr/safe/news'
 
 req = requests.get(url)
-#req.encoding= None
+req.encoding= None
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
                  
