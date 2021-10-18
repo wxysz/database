@@ -40,7 +40,7 @@ rank1 = rank_json["data"]["league1"]
 rank2 = rank_json["data"]["league2"]
 rank_zip = rank1 + rank2
 for league_ranking in rank_zip:
-    json.dump(league_ranking, ensure_ascii=False, indent="\t")
+    json.dumps(league_ranking, ensure_ascii=False, indent="\t")
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as make_file:
     json.dump(rank_zip, make_file, ensure_ascii = False, indent='\t')
