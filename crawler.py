@@ -16,7 +16,7 @@ req.encoding= None
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
                  
-site_json=json.loads(soup.content) # 추가
+#site_json=json.loads(soup.content) # 추가
                    
 datas = soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
