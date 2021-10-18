@@ -16,7 +16,7 @@ datas = soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
     )
 
-data = {}
+data = []
 
 for title in datas:   
     name = title.find_all('a')[0].text
@@ -46,4 +46,3 @@ for league_ranking in rank_zip:
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as make_file:
     json.dump(rank_zip, make_file, ensure_ascii = False, indent='\t')
 ''' 
-print('뉴스기사 스크래핑 끝')
