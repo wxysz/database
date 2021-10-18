@@ -8,12 +8,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 print('뉴스기사 스크래핑 시작')
 
-url = 'https://www.yna.co.kr/safe/news'
-req = requests.get(url)
-#req.encoding= None
+req = requests.get('https://www.yna.co.kr/safe/news')
+req.encoding= None
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
-
 datas = soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
     )
@@ -27,6 +25,8 @@ for title in datas:
 
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
     json.dump(data, json_file, ensure_ascii = False, indent='\t')
+
+print('뉴스기사 스크래핑 끝')
 
 '''
 url1 = 'https://kleague.com/api/clubRank.do'
