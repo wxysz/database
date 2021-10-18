@@ -20,8 +20,9 @@ rank_zip = rank1 + rank2
 
 league_ranking = json.dumps(rank_zip, ensure_ascii=False, indent="\t")
 
-print(league_ranking)
-
+with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as write_file:
+    json.dump(league_ranking, write_file, ensure_ascii = False, indent='\t')
+    
 
 '''
 for league_ranking in rank_zip:
