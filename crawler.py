@@ -8,10 +8,16 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 print('뉴스기사 스크래핑 시작')
 
-req = requests.get('https://www.yna.co.kr/safe/news')
-req.encoding= None
+#url = 'https://kleague.com/api/clubRank.do'
+url = 'https://www.yna.co.kr/safe/news'
+
+req = requests.get(url')
+#req.encoding= None
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
+                 
+site_json=json.loads(soup.content) # 추가
+                   
 datas = soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
     )
