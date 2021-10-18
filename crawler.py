@@ -18,10 +18,10 @@ rank1 = rank_json["data"]["league1"]
 rank2 = rank_json["data"]["league2"]
 rank_zip = rank1 + rank2
 
-with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as write_file:
-    json.dump(rank_zip, write_file, ensure_ascii = False, indent='\t')
+league_ranking = json.dumps(rank_zip, ensure_ascii=False, indent="\t")
 
-repo.create_issue()
+print(league_ranking)
+
 
 '''
 for league_ranking in rank_zip:
