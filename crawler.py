@@ -14,12 +14,6 @@ req = requests.get(url)
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
 
-url1 = 'https://kleague.com/api/clubRank.do'
-req1 = requests.get(url1)
-html1 = req1.content
-soup1 = BeautifulSoup(html1, 'html.parser')
-rank_json=json.loads(soup1.text)
-
 datas = soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
     )
@@ -34,6 +28,13 @@ for title in datas:
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
     json.dump(data, json_file, ensure_ascii = False, indent='\t')
 
+'''
+url1 = 'https://kleague.com/api/clubRank.do'
+req1 = requests.get(url1)
+html1 = req1.content
+soup1 = BeautifulSoup(html1, 'html.parser')
+rank_json=json.loads(soup1.text)
+
 rank1 = []
 rank2 = []
 rank1 = rank_json["data"]["league1"]
@@ -44,5 +45,5 @@ for league_ranking in rank_zip:
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as make_file:
     json.dump(rank_zip, make_file, ensure_ascii = False, indent='\t')
-    
+''' 
 print('뉴스기사 스크래핑 끝')
