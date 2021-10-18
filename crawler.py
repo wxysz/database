@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
-html = req1.content
+html = req.content
 soup = BeautifulSoup(html, 'html.parser')
 rank_json=json.loads(soup.text)
 
