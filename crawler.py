@@ -4,8 +4,6 @@ import json
 import os
 import sys
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
 html = req.content
@@ -20,7 +18,7 @@ rank_zip = rank1 + rank2
 
 league_ranking = json.dumps(rank_zip, ensure_ascii=False, indent="\t")
 
-with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as write_file:
+with open('rank.json', 'w+',encoding='utf-8') as write_file:
     json.dump(league_ranking, write_file, ensure_ascii = False, indent='\t')
     
 
