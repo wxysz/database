@@ -22,4 +22,4 @@ for league_ranking in rank_zip:
     print(json.dumps(league_ranking, ensure_ascii=False, indent="\t"))
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as make_file:
-    json.dump(rank_zip, make_file, ensure_ascii = False, indent='\t')
+    json.dumps(rank_zip, make_file, ensure_ascii = False, indent='\t')
