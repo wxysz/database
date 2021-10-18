@@ -23,4 +23,4 @@ rank_zip = rank1 + rank2
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+',encoding='utf-8') as make_file:
     json.dump(rank_zip, make_file, ensure_ascii = False, indent='\t')
 
-    print(json.dumps(rank_zip, make_file, ensure_ascii = False, indent='\t'))
+    print(json.dump(rank_zip, make_file, ensure_ascii = False, indent='\t'))
