@@ -9,11 +9,12 @@ from pytz import timezone
 
 data = {}
 
+with open ("rank.json", "r", encoding="utf-8") as f:
+    jdata = json.load(f)
+    
 with open ("rank.json", "w", encoding="utf-8") as f:
     jdata = json.dump(data, f, indent=2)
 
-with open ("rank.json", "r", encoding="utf-8") as f:
-    jdata = json.load(f)
     print(jdata)
 '''
 seoul_timezone = timezone('Asia/Seoul')
