@@ -28,6 +28,21 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 print(today_date)
 
+html_text = """
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Page Title</title>
+    </head>
+    <body>
+
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+
+    </body>
+    </html>
+"""
+
 html_file = open('html_file.html', 'w')
 html_file.write(html_text)
 html_file.close()
