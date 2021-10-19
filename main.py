@@ -16,7 +16,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
 soup = BeautifulSoup(req.content, 'html.parser')
-rank = json.loads(soup)
+rank = json.loads(soup.text)
 
 access_token = os.environ['MY_GITHUB_TOKEN']
 repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
