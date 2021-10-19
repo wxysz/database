@@ -21,7 +21,7 @@ with open ("rank.json", "w+", encoding="utf-8") as f:
 
     print(jdata)
 '''
-data = []
+
 file_data = dict()
 file_data["name"] = "COMPUTER"
 file_data["language"] = "kor"
@@ -32,8 +32,8 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 print(reg)
     
-with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    reg = json.dump(data.append(file_data), make_file, ensure_ascii = False, indent="\t")
+with open(os.path.join(BASE_DIR, 'rank.json'), 'a+', encoding="utf-8") as make_file:
+    reg = json.dump(file_data, make_file, ensure_ascii = False, indent="\t")
 print(reg)
     
 '''
