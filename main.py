@@ -25,7 +25,10 @@ league_ranking = json.dumps(rank_zip, ensure_ascii=False, indent="\t")
 
 GITHUB_TOKEN = os.environ['MY_GITHUB_TOKEN']
 REPOSITORY_NAME = "database"
-repo = Github(GITHUB_TOKEN).get_user().get_repo(REPOSITORY_NAME)
+
+g = Github(GITHUB_TOKEN)
+repo = g.get_user().get_repo(REPOSITORY_NAME)
+
 issue_title = f"K리그 순위 ({today_date})"
 
 if issue_body != '' and REPO_NAME == repo.name:
