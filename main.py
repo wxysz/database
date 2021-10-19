@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 from github import Github
 from datetime import datetime
 from pytz import timezone
+import numpy as np
+import pandas as pd
 
 seoul_timezone = timezone('Asia/Seoul')
 today = datetime.now(seoul_timezone)
