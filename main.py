@@ -29,6 +29,6 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"K리그 순위 ({today_date})"
 
-if league_ranking != '' and REPO_NAME == repo.name:
+if league_ranking != '' and repository_name == repo.name:
     reg = repo.create_issue(title=issue_title, body=league_ranking)
     print(reg)
