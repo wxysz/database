@@ -7,14 +7,14 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 
-data = {}
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-with open ("rank.json", "r", encoding="utf-8") as f:
+with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     jdata = json.load(f)
     
     print(jdata)
     
-with open ("rank.json", "w", encoding="utf-8") as f:
+with open ("rank.json", "w+", encoding="utf-8") as f:
     jdata = json.dump(rank_zip, f, indent=2)
 
     print(jdata)
