@@ -22,12 +22,10 @@ rank2 = rank_json["data"]["league2"]
 rank_zip = rank1 + rank2
 league_ranking = json.dumps(rank_zip, ensure_ascii=False, indent="\t")
 
+access_token = os.environ['MY_GITHUB_TOKEN']
+repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
 
-    access_token = os.environ['MY_GITHUB_TOKEN']
-    repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
-
-g = Github(access_token)
-    repo = g.get_user().get_repo(repository_name)
+repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"K리그 순위 ({today_date})"
 
