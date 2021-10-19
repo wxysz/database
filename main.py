@@ -28,11 +28,27 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 print(today_date)
 
+ html_text = """
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <title>Page Title</title>
+     </head>
+     <body>
+
+     <h1>This is a Heading</h1>
+     <p>This is a paragraph.</p>
+
+     </body>
+     </html>
+ """
+
+ with open('html_file.html', 'w') as html_file:
+    html_file.write(html_text)
     
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    make_file.write(rank[league1])
-#    reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
+    reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
 print(reg)
 
 '''
