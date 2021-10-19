@@ -26,7 +26,7 @@ for title in datas:
 
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
     json.dump(data, json_file, ensure_ascii = False, indent='\t')
-reg = json.dumps(data, json_file, ensure_ascii = False, indent='\t')
+reg = json.dump(data, json_file, ensure_ascii = False, indent='\t')
 print(reg)
 
 '''
