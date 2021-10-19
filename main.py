@@ -7,27 +7,16 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+data = {"id":"1000", 
+		"language":{"first":"korean","seconds":"english"}, 
+		"grade":"A", "name":"honaldo"}
 
-req = requests.get('https://www.yna.co.kr/safe/news')
-req.encoding= None
-html = req.content
-soup = BeautifulSoup(html, 'html.parser')
-datas = soup.select(
-    'div.contents > div.content01 > div > ul > li >article > div >h3'
-    )
+with open ("jsondata.json", "w", encoding="utf-8-sig") as json_file:
+    jdata = json.dump(data, json_file, indent=2)
 
-data = {}
-
-for title in datas:   
-    name = title.find_all('a')[0].text
-    url = 'http:'+title.find('a')['href']
-    data[name] = url
-
-with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
-    reg = json.dump(data, json_file, ensure_ascii = False, indent='\t')
-    print(reg)
-
+with open ("jsondata.json", "r", encoding="utf-8-sig") as json_file:
+    jdata = json.load(json_file)
+    print(jdata)
 '''
 seoul_timezone = timezone('Asia/Seoul')
 today = datetime.now(seoul_timezone)
