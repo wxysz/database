@@ -28,7 +28,7 @@ with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_fi
     reg = json.dump(data, json_file, ensure_ascii = False, indent='\t')
 
 print(reg)
-print(-----------------------------------------------------)
+print(############################################)
 
 html = """<html><head></head><p>test</p></html>"""
 
