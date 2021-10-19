@@ -35,7 +35,7 @@ print(reg)
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     data.append(file_data)
     reg = json.dump(data, make_file, ensure_ascii = False, indent="\t")
-print(reg)
+print(data)
     
 '''
 seoul_timezone = timezone('Asia/Seoul')
