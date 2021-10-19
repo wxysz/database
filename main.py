@@ -31,7 +31,7 @@ print(today_date)
     
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    make_file.write(rank)
+    make_file.write(rank[data][league1])
 #    reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
 print(reg)
 
