@@ -7,10 +7,10 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 
-data = {}
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+'''
+data = {}
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     jdata = json.load(f)
     
@@ -20,7 +20,7 @@ with open ("rank.json", "w+", encoding="utf-8") as f:
     jdata = json.dump(data, f, indent=2)
 
     print(jdata)
-
+'''
 file_data = []
 file_data["name"] = "COMPUTER"
 file_data["language"] = "kor"
