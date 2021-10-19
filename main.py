@@ -29,7 +29,7 @@ file_data["number"] = 4
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(file_data, make_file, ensure_ascii=False, indent="\t")
-print(reg)
+print(file_data)
 
     
 '''
