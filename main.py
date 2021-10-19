@@ -26,7 +26,7 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
 print(reg)
     
 with open(os.path.join(BASE_DIR, 'rank.json'), 'a+', encoding="utf-8") as make_file:
-    reg = json.dump(file_data, make_file, ensure_ascii = False, indent="\t")
+    reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
 print(reg)
     
 '''
