@@ -6,8 +6,6 @@ from bs4 import BeautifulSoup
 from github import Github
 from datetime import datetime
 from pytz import timezone
-import numpy as np
-import pandas as pd
 
 seoul_timezone = timezone('Asia/Seoul')
 today = datetime.now(seoul_timezone)
@@ -39,15 +37,6 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 print(reg)
 '''
-
-url1 = 'https://kin.naver.com/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC'
-
-response = requests.get(url)
-
-if response.status_code == 200:
-    html1 = response.text
-    soup1 = BeautifulSoup(html1, 'html.parser')
-    print(soup1)
-
-else : 
-    print(response.status_code)
+html = urlopen("http://www.naver.com")  
+bsObject = BeautifulSoup(html, "html.parser")
+print(bsObject)
