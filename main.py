@@ -28,7 +28,21 @@ with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_fi
     reg = json.dump(data, json_file, ensure_ascii = False, indent='\t')
 
 print(reg)
-    
+print(-----------------------------------------------------)
+
+html = """<html><head></head><p>test</p></html>"""
+
+start_time = time.time()
+BeautifulSoup(html, 'lxml')
+lxml_end_time = time.time() - start_time
+
+start_time = time.time()
+BeautifulSoup(html, 'html5lib')
+html5lib_end_time = time.time() - start_time
+
+print('lxml 시각측정 : %f' %(lxml_end_time))
+print('html5lib 시간측정 : %f' %(html5lib_end_time))
+print(html5lib_end_time - lxml_end_time)
 
 
 '''
