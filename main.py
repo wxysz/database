@@ -25,9 +25,9 @@ for title in datas:
     data[name] = url
 
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
-    reg = json.dump(data, json_file, ensure_ascii = False, indent='\t')
+    json.dump(data, json_file, ensure_ascii = False, indent='\t')
 
-print(data)
+print(json.dump(data, json_file, ensure_ascii = False, indent='\t'))
 
 '''
 seoul_timezone = timezone('Asia/Seoul')
