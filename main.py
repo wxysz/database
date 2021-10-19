@@ -38,11 +38,4 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
 print(reg)
 '''
 
-url1 = 'https://kin.naver.com/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC'
 
-req1 = requests.get(url)
-html1 = req1.text
-soup1 = BeautifulSoup(html1, 'html.parser')
-
-print(soup1)
-    
