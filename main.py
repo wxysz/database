@@ -28,20 +28,31 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 print(today_date)
 
-html_text = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>Page Title</title>
-    </head>
-    <body>
+file = open("./naver.json", "w")
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+url = "https://search.shopping.naver.com/search/all?query=%EA%B1%B4%EC%A1%B0%EA%B8%B0&cat_id=&frm=NVSHATC"
+html = requests.get(url)
+soup = BeautifulSoup(html.text, 'lxml')
+cnt = len(soup.find_all('div', class_='basicList_title__3P9Q7'))
 
-    </body>
-    </html>
-"""
+for i in range(0,cnt) :
+    naver = {}
+    metadata = soup.find_all('div', class_='basicList_title__3P9Q7')[i]
+    title = metadata.a.get('title')
+    print("<제품명> : ", title)               # title
+    
+    price = soup.find_all('span', class_='price_num__2WUXn')[i].text
+    print("<가격> : ", price)                # 가격
+    
+    url = metadata.a.get('href')
+    print("<url> : ", url)                  # url
+         
+    print("===================================================")
+    
+    naver = {'제품명' : title , '가격' : price, 'url' : url }
+    file.write(json.dumps(naver))
+
+file.close()
 
 html_file = open('html_file.html', 'w')
 html_file.write(html_text)
