@@ -12,14 +12,15 @@ json_dict = {
     }
 }
 
-row = {
+add = {
     'lotteria': {
         'category': 'food',
         'price': '1500'
     }
 }
 
-json_dict.update(row)
+#json_dict.update(row)
+json_dict = [json_dict, add]
 
 json_dict = json.loads(json.dumps(json_dict, ensure_ascii=False, indent="\t"))
 print (json_dict)
