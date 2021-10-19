@@ -33,7 +33,8 @@ print(reg)
 '''
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
-    
+print(reg)
+
 json_object = {
     "id": 1,
     "username": "Bret",
@@ -48,7 +49,7 @@ json_object = {
     "hobbies": None
 }
 
-with open('data.json', 'w') as f:
+with open(os.path.join(BASE_DIR, 'data.json'), 'w+') as f:
     json_string = json.dump(json_object, f, indent=2)
     print(json_string)
-print(reg)
+
