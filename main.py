@@ -7,13 +7,22 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 
-data = {}
+url = 'https://kleague.com/api/clubRank.do'
+req = requests.get(url)
+html = req.content
+soup = BeautifulSoup(html, 'html.parser')
+rank_json=json.loads(soup.text)
+rank1 = []
+rank2 = []
+rank1 = rank_json["data"]["league1"]
+rank2 = rank_json["data"]["league2"]
+rank_zip = rank1 + rank2
 
 with open ("rank.json", "r", encoding="utf-8") as f:
     jdata = json.load(f)
     
 with open ("rank.json", "w", encoding="utf-8") as f:
-    jdata = json.dump(data, f, indent=2)
+    jdata = json.dump(rank_zip, f, indent=2)
 
     print(jdata)
 '''
