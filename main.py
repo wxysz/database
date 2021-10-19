@@ -30,5 +30,8 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 issue_title = f"K리그 순위 ({today_date})"
 
 if league_ranking != '' and repository_name == repo.name:
-    reg = repo.create_issue(title=issue_title, body=league_ranking)
+    # reg = repo.create_issue(title=issue_title, body=league_ranking)
+with open('rank.json', 'w+',encoding='utf-8') as write_file:
+    reg = json.dump(league_ranking, write_file, ensure_ascii = False, indent='\t')
+    
     print(reg)
