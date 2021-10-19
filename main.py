@@ -13,9 +13,9 @@ req = requests.get('https://www.yna.co.kr/safe/news')
 req.encoding= None
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
-datas = soup.select(
+datas = json.loads(soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
-    )
+    )t)
 
 data = {}
 
