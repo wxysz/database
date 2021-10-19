@@ -34,6 +34,7 @@ issue_title = f"K리그 순위 ({today_date})"
 
 if league_ranking != '' and repository_name == repo.name:
     # reg = repo.create_issue(title=issue_title, body=league_ranking)
+    
 with open('rank.json', 'w+',encoding='utf-8') as write_file:
     reg = json.dump(os.path.join(BASE_DIR, 'rank.json'), write_file, ensure_ascii = False, indent='\t')
     
