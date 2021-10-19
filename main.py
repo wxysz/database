@@ -7,9 +7,7 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 
-data = {"id":"1000", 
-		"language":{"first":"korean","seconds":"english"}, 
-		"grade":"A", "name":"honaldo"}
+data = {}
 
 with open ("rank.json", "w", encoding="utf-8") as f:
     jdata = json.dump(data, f, indent=2)
