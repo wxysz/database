@@ -24,7 +24,7 @@ for title in news_data:
     url = 'http:'+title.find('a')['href']
     data[name] = url
 
-json_object = json.loads(data)
+json_object = json.load(data)
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
    reg = json.dump(data, json_file, ensure_ascii = False, indent='\t')
    print(json_object)
