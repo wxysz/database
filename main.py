@@ -18,7 +18,7 @@ url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
-rank = json.loads(soup.text)
+rank = json.loads(soup)
 
 access_token = os.environ['MY_GITHUB_TOKEN']
 repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
@@ -27,25 +27,7 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 # repo.create_file("rank.json", "commit message", rank)
 
 print(today_date)
-
-html_text = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>Page Title</title>
-    </head>
-    <body>
-
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-
-    </body>
-    </html>
-"""
-
-with open('html_file.html', 'w') as html_file:
-     html_file.write(html_text)
-    
+print(rank)
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
@@ -56,3 +38,15 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 print(reg)
 '''
+
+url1 = 'https://kin.naver.com/search/list.nhn?query=%ED%8C%8C%EC%9D%B4%EC%8D%AC'
+
+response = requests.get(url)
+
+if response.status_code == 200:
+    html1 = response.text
+    soup1 = BeautifulSoup(html1, 'html.parser')
+    print(soup1)
+
+else : 
+    print(response.status_code)
