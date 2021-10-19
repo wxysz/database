@@ -18,7 +18,7 @@ url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
-rank = json.loads(soup)
+rank = json.loads(soup.text)
 
 access_token = os.environ['MY_GITHUB_TOKEN']
 repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
