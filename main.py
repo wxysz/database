@@ -33,8 +33,7 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
 print(reg)
     
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    data.append(file_data)
-    reg = json.dump(data, make_file, ensure_ascii = False, indent="\t")
+    reg = json.dump(data.append(file_data), make_file, ensure_ascii = False, indent="\t")
 print(data)
     
 '''
