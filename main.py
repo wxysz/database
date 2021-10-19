@@ -24,9 +24,10 @@ for title in news_data:
     url = 'http:'+title.find('a')['href']
     data[name] = url
 
+json_object = json.loads(data)
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
-   reg = json.dumps(data, json_file, ensure_ascii = False, indent='\t')
-   print(data)
+   reg = json.dump(data, json_file, ensure_ascii = False, indent='\t')
+   print(json_object)
     
 print('뉴스기사 스크래핑 끝')
 
