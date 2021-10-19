@@ -12,7 +12,7 @@ today = datetime.now(seoul_timezone)
 today_date = today.strftime("%Y년 %m월 %d일")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
+rank = []
 url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
 html = req.text
