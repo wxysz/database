@@ -7,11 +7,28 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 seoul_timezone = timezone('Asia/Seoul')
 today = datetime.now(seoul_timezone)
 today_date = today.strftime("%Y년 %m월 %d일")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+file_data = dict()
+file_data["name"] = "COMPUTER"
+file_data["language"] = "kor"
+file_data["words"] = {'ram':'램', 'process':'프로세스', 'processor':'프로세서', 'CPU':'씨피유'}
+file_data["number"] = 4
+
+with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
+    reg = json.load(f)
+print(reg)
+    
+with open(os.path.join(BASE_DIR, 'rank.json'), 'a+', encoding="utf-8") as make_file:
+    reg = json.dump(file_data, make_file, ensure_ascii = False, indent="\t")
+print(reg)
+    
+'''
+
 
 url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
@@ -39,4 +56,6 @@ with open('rank.json', 'w+',encoding='utf-8') as write_file:
     reg = json.dump(os.path.join(BASE_DIR, 'rank.json'), write_file, ensure_ascii = False, indent='\t')
     
     print(reg)
+    
+    '''
 
