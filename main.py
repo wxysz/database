@@ -23,17 +23,20 @@ access_token = os.environ['MY_GITHUB_TOKEN']
 repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
 
 repo = Github(access_token).get_user().get_repo(repository_name)
-repo.create_file("rank.json", "commit message", rank)
+# repo.create_file("rank.json", "commit message", rank)
 
 print(today_date)
 print(rank)
 
+with open(repo,'r') as j:
+    contents=json.load(j.read())
+print(contents)
 '''
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
 print(reg)
-'''
+
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 print(reg)
-
+'''
