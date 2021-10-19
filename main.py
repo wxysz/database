@@ -13,11 +13,13 @@ today_date = today.strftime("%Y년 %m월 %d일")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-file_data = dict()
-file_data["name"] = "COMPUTER"
-file_data["language"] = "kor"
-file_data["words"] = {'ram':'램', 'process':'프로세스', 'processor':'프로세서', 'CPU':'씨피유'}
-file_data["number"] = 4
+url = 'https://kleague.com/api/clubRank.do'
+req = requests.get(url)
+html = req.content
+soup = BeautifulSoup(html, 'html.parser')
+rank_json=json.loads(soup.text)
+
+print(rank_json)
 
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
