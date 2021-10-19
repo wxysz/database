@@ -48,7 +48,7 @@ with open('html_file.html', 'w') as html_file:
     
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
+    reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 print(reg)
 
 '''
