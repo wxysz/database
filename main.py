@@ -27,7 +27,6 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 # repo.create_file("rank.json", "commit message", rank)
 
 print(today_date)
-print(rank)
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
