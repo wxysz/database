@@ -15,7 +15,7 @@ html = req.content
 soup = BeautifulSoup(html, 'html.parser')
 datas = json.loads(soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
-    )t)
+    ))
 
 data = {}
 
