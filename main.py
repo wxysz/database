@@ -27,11 +27,26 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 # repo.create_file("rank.json", "commit message", rank)
 
 print(today_date)
-print(rank)
 
-with open(repo,'r') as j:
-    contents=json.load(j.read())
-print(contents)
+html_text = """
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Page Title</title>
+    </head>
+    <body>
+
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+
+    </body>
+    </html>
+"""
+
+html_file = open('html_file.html', 'w')
+html_file.write(html_text)
+html_file.close()
+
 '''
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
