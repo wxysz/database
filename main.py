@@ -20,7 +20,8 @@ with open ("rank.json", "w+", encoding="utf-8") as f:
     jdata = json.dump(data, f, indent=2)
 
     print(jdata)
-    
+
+file_data = []
 file_data["name"] = "COMPUTER"
 file_data["language"] = "kor"
 file_data["words"] = {'ram':'램', 'process':'프로세스', 'processor':'프로세서', 'CPU':'씨피유'}
