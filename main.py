@@ -17,6 +17,7 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     print(jdata)
     
 with open ("rank.json", "w+", encoding="utf-8") as f:
+    data += jdata
     jdata = json.dump(data, f, indent=2)
 
     print(jdata)
