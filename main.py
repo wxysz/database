@@ -11,11 +11,11 @@ data = {"id":"1000",
 		"language":{"first":"korean","seconds":"english"}, 
 		"grade":"A", "name":"honaldo"}
 
-with open ("jsondata.json", "w", encoding="utf-8-sig") as json_file:
-    jdata = json.dump(data, json_file, indent=2)
+with open ("rank.json", "w", encoding="utf-8") as f:
+    jdata = json.dump(data, f, indent=2)
 
-with open ("jsondata.json", "r", encoding="utf-8-sig") as json_file:
-    jdata = json.load(json_file)
+with open ("rank.json", "r", encoding="utf-8") as f:
+    jdata = json.load(f)
     print(jdata)
 '''
 seoul_timezone = timezone('Asia/Seoul')
