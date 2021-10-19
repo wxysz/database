@@ -13,7 +13,7 @@ req = requests.get('https://www.yna.co.kr/safe/news')
 req.encoding= None
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
-datas = json.loads(soup.select(
+datas = json.load(soup.select(
     'div.contents > div.content01 > div > ul > li >article > div >h3'
     ))
 
