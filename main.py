@@ -25,7 +25,7 @@ repository_name = "database" # 내 저장소 이름 필수로 바꿔야함
 repo = Github(access_token).get_user().get_repo(repository_name)
 
 print(today_date)
-print(rank_json)
+# print(rank_json)
 
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
@@ -35,4 +35,20 @@ with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_f
     reg = json.dump(rank_json, make_file, ensure_ascii = False, indent="\t")
 print(reg)
     
+json_object = {
+    "id": 1,
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+    },
+    "admin": False,
+    "hobbies": None
+}
 
+with open('data.json', 'w') as f:
+    json_string = json.dump(json_object, f, indent=2)
+    print(json_string)
