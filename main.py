@@ -27,8 +27,11 @@ file_data["language"] = "kor"
 file_data["words"] = {'ram':'램', 'process':'프로세스', 'processor':'프로세서', 'CPU':'씨피유'}
 file_data["number"] = 4
 
-print(json.dumps(file_data, ensure_ascii=False, indent="\t"))
+with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
+    json.dump(file_data, make_file, ensure_ascii=False, indent="\t")
 
+
+    
 '''
 seoul_timezone = timezone('Asia/Seoul')
 today = datetime.now(seoul_timezone)
