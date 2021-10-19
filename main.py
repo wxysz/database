@@ -16,7 +16,7 @@ rank = dict()
 
 url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
-html = req.content
+html = req.text
 soup = BeautifulSoup(html, 'html.parser')
 rank = json.loads(soup.text)
 
