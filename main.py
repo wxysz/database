@@ -42,6 +42,6 @@ print(reg)
 '''
 
 
-r = requests.get('https://sneakernews.com/category/adidas/')
+r = requests.get('https://kleague.com/api/clubRank.do')
 html = r.text
 print(html)
