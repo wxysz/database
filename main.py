@@ -30,7 +30,7 @@ print(today_date)
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 
-rank_json = json.dump(rank, make_file, indent=2, sort_keys=True)  # dict()를 str로 변경
+rank_json = json.dumps(rank, indent=2, sort_keys=True)  # dict()를 str로 변경
 print(rank_json)
 # res = repo.create_issue(title=issue_title, body=rank_json) 실행가능 
 # repo.create_file('rank.json', "commit message", rank_json) 실행가능
