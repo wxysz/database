@@ -32,8 +32,9 @@ with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_f
 
 rank_json = json.dumps(rank, indent=2, sort_keys=True)  # dict()를 str로 변경
 
-repo.create_issue(title=issue_title, body=rank_json) 
-repo.create_file(os.path.join(BASE_DIR, 'rank.json'), "commit message", rank_json)
+res = repo.create_issue(title=issue_title, body=rank_json) 
+
+repo.create_file('rank.json', "commit message", rank_json)
 
 '''
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
