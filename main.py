@@ -30,8 +30,10 @@ print(today_date)
 with open(os.path.join(BASE_DIR, './rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 
-rank_json = json.dumps(rank, indent=2, sort_keys=True)
-repo.create_issue(title=issue_title, body=rank_json)
+rank_json = json.dumps(rank, indent=2, sort_keys=True)  # dict()를 str로 변경
+
+repo.create_issue(title=issue_title, body=rank_json) 
+repo.create_file("/rank.json", "commit message", rank_json)
 
 '''
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
@@ -60,31 +62,6 @@ with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_fi
     json.dump(data, json_file, ensure_ascii = False, indent='\t')
     
 print('뉴스기사 스크래핑 끝')
-
-
-student_data = {
-    "1.FirstName": "Gildong",
-    "2.LastName": "Hong",
-    "3.Age": 20, 
-    "4.University": "Yonsei University",
-    "5.Courses": [
-        {
-            "Major": "Statistics", 
-            "Classes": ["Probability", 
-                        "Generalized Linear Model", 
-                        "Categorical Data Analysis"]
-        }, 
-        {
-            "Minor": "ComputerScience", 
-            "Classes": ["Data Structure", 
-                        "Programming", 
-                        "Algorithms"]
-        }
-    ]
-} 
-
-st_json = json.dumps(student_data, indent=2, sort_keys=True)
-print(st_json)
 
 '''
 if __name__ == "__main__":
