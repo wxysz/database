@@ -18,6 +18,10 @@ req = requests.get(url)
 soup = BeautifulSoup(req.content, 'html.parser')
 rank = json.loads(soup.text)
 
+contents = ''
+
+contents += rank
+
 access_token = os.environ['MY_GITHUB_TOKEN']
 repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
 
@@ -25,7 +29,7 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"리그 순위표({today_date})"
 
-#repo.create_issue(title=issue_title, body=rank[data][league1])
+repo.create_issue(title=issue_title, body=contents)
 
 print(today_date)
 
