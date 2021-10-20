@@ -25,21 +25,12 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"리그 순위표({today_date})"
 
-# repo.create_issue(title=issue_title, body=contents)
-
 print(today_date)
-
-print(repo.name)
 
 with open(os.path.join(BASE_DIR, './rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
-print(reg)
+repo.create_issue(title=issue_title, body=reg)
 
-lst = ['국어', '수학', '정보', '영어', '체육']
-
-new_lst = lst.split(",")   
-
-print(new_lst) 
 
 
 '''
