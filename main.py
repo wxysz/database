@@ -29,7 +29,7 @@ issue_title = f"리그 순위표({today_date})"
 
 print(today_date)
 
-print(rank[data][league1])
+print(repo.name)
 
 with open(os.path.join(BASE_DIR, './rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
