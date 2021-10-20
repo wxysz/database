@@ -23,7 +23,9 @@ repository_name = "database" # 내 저장소 이름 필수로 바꿔야함
 
 repo = Github(access_token).get_user().get_repo(repository_name)
 
-repo.edit_file("rank.json", "commit message", "das")
+issue_title = f"YES24 IT 신간 도서 알림({today_date})"
+
+repo.create_issue(title=issue_title, body=rank)
 
 print(today_date)
 
