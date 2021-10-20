@@ -17,17 +17,20 @@ url = 'https://kleague.com/api/clubRank.do'
 req = requests.get(url)
 soup = BeautifulSoup(req.content, 'html.parser')
 rank = json.loads(soup.text)
+rank1 = rank["data"]["league1"]
+rank2 = rank["data"]["league2"]
+rank_zip = rank1 + rank2
 
 access_token = os.environ['MY_GITHUB_TOKEN']
 repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
 
 repo = Github(access_token).get_user().get_repo(repository_name)
-# repo.create_file("rank.json", "commit message", rank)
+repo.create_file("rank.json", "commit message", rank_zip)
 
 print(today_date)
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
+    reg = json.dump(rank_zip, make_file, ensure_ascii = False, indent="\t")
 print(reg)
 
 '''
