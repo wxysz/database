@@ -23,7 +23,7 @@ repository_name = "database" # 내 저장소 이름 필수로 바꿔야함
 
 repo = Github(access_token).get_user().get_repo(repository_name)
 
-repo.create_file("rank.json", "commit message", "dsfsdfsdfsfd")
+repo.edit_file("rank.json", "commit message", "das")
 
 print(today_date)
 
