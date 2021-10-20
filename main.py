@@ -43,5 +43,7 @@ print(reg)
 
 
 r = requests.get('https://kleague.com/api/clubRank.do')
-html = r.text
-print(html)
+j = r.text
+with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as f:
+    x = json.dump(j, f, ensure_ascii = False)
+print(X)
