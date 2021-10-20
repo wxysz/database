@@ -30,6 +30,9 @@ print(today_date)
 with open(os.path.join(BASE_DIR, './rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 
+rank_json = json.dumps(rank, indent=2, sort_keys=True)
+repo.create_issue(title=issue_title, body=rank_json)
+
 '''
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
@@ -55,7 +58,7 @@ for title in datas:
 
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
     json.dump(data, json_file, ensure_ascii = False, indent='\t')
-
+    
 print('뉴스기사 스크래핑 끝')
 
 
@@ -81,8 +84,7 @@ student_data = {
 } 
 
 st_json = json.dumps(student_data, indent=2, sort_keys=True)
-repo.create_issue(title=issue_title, body=st_json)
-
+print(st_json)
 
 '''
 if __name__ == "__main__":
