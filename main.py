@@ -81,8 +81,8 @@ student_data = {
 } 
 
 st_json = json.dumps(student_data, indent=2, sort_keys=True)
+repo.create_issue(title=issue_title, body=st_json)
 
-print(st_json)
 
 '''
 if __name__ == "__main__":
