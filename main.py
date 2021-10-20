@@ -30,7 +30,11 @@ print(today_date)
 with open(os.path.join(BASE_DIR, './rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+'''
+with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
+    reg = json.load(f)
+print(reg)
+'''
 
 print('뉴스기사 스크래핑 시작')
 
@@ -55,11 +59,30 @@ with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_fi
 print('뉴스기사 스크래핑 끝')
 
 
-'''
-with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
-    reg = json.load(f)
-print(reg)
-'''
+student_data = {
+    "1.FirstName": "Gildong",
+    "2.LastName": "Hong",
+    "3.Age": 20, 
+    "4.University": "Yonsei University",
+    "5.Courses": [
+        {
+            "Major": "Statistics", 
+            "Classes": ["Probability", 
+                        "Generalized Linear Model", 
+                        "Categorical Data Analysis"]
+        }, 
+        {
+            "Minor": "ComputerScience", 
+            "Classes": ["Data Structure", 
+                        "Programming", 
+                        "Algorithms"]
+        }
+    ]
+} 
+
+st_json = json.dumps(student_data, encoding="utf-8", indent=2, sort_keys=True)
+
+print(st_json)
 
 '''
 if __name__ == "__main__":
