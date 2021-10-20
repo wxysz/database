@@ -35,9 +35,9 @@ with open(os.path.join(BASE_DIR, './rank.json'), 'w+', encoding="utf-8") as make
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 print(reg)
 
-s = "국어,수학,정보,영어,체육"
+lst = ['국어', '수학', '정보', '영어', '체육']
 
-new_lst = s.split(",")   
+new_lst = lst.split(",")   
 
 print(new_lst) 
 
