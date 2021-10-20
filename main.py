@@ -42,3 +42,6 @@ print(reg)
 '''
 
 
+r = requests.get('https://sneakernews.com/category/adidas/')
+html = r.text
+print(html)
