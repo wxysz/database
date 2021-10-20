@@ -25,11 +25,11 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"YES24 IT 신간 도서 알림({today_date})"
 
-repo.create_issue(title=issue_title, body=rank)
+# repo.create_issue(title=issue_title, body=rank)
 
 print(today_date)
 
-with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
+with open(os.path.join(BASE_DIR, './rank.json'), 'w+', encoding="utf-8") as make_file:
     reg = json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 print(reg)
 
