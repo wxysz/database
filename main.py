@@ -29,7 +29,7 @@ print(today)
 print(today_date)
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    json.dump(rank, make_file, ensure_ascii = False, indent="\t")
+    json.dump(rank, make_file, ensure_ascii = False)    # , indent="\t"
 
 rank_json = json.dumps(rank, sort_keys=True)  # dict()를 str로 변경 rank, indent=2, sort_keys=True
 
@@ -41,3 +41,6 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 print(reg)
 '''
+
+with open('new_file.txt') as fp :
+   fp.write('Hello new world')
