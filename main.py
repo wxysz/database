@@ -66,11 +66,11 @@ def get_github_repo(access_token, repository_name):
 def upload_github_issue(repo, title, body):
     repo.create_issue(title=title, body=body)
 
-def delete_github_issue(repo):
-    issues = repo.get_issues(state='open')
+def delete_github_issue(repo):	# 이슈 삭제
+    issues = repo.get_issues(state='open')	# 저장소 이슈를 받아와서 상태=열기
     for issue in issues:
-        if "날짜 발열 테스트" in issue.title:
-            issue.edit(state='closed')
+        if "날짜 발열 테스트" in issue.title:	# 만약 이슈의 제목이 ""와 같다면 
+            issue.edit(state='closed')	# 이슈를 수정해서 상태=닫기
             print(issue.title)
 
 
@@ -128,9 +128,9 @@ for student in students:
     student.append(temp)
     call(student[0], student[1], student[2], temp)
 
-if githubCall:
-    repo = get_github_repo(access_token, repository_name)
-    delete_github_issue(repo)
+if githubCall:	# 깃허브콜? 
+    repo = get_github_repo(access_token, repository_name)	# 저장송에 토큰과 저장소 이름을 받아와서
+    delete_github_issue(repo)	# 이 함수로 보냄
         
     title = f"날짜 발열 테스트 : ({today_data})"
     body = makeBody(students)
