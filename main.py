@@ -44,6 +44,7 @@ print(reg)
 
 r = requests.get('https://kleague.com/api/clubRank.do')
 j = r.text
+a = json.dumps(j, ensure_ascii=False)
 with open('rank.json', 'w+', encoding="utf-8") as f:
-    x = json.dump(j, f, ensure_ascii=False)
+    x = json.dump(a, f)
 print(x)
