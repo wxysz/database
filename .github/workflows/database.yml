@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron:  '00 12 * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
+    - cron:  '40 11 * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
 
 
 jobs:
