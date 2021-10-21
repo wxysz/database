@@ -46,7 +46,5 @@ print(reg)
 '''
 
 file = 'rank.json'
-if os.path.isfile(file): 
-    print("Yes. it is a file")
-else :
-    print("Nothing")
+if os.path.isfile(file):
+    print(OK)
