@@ -42,5 +42,5 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
 print(reg)
 '''
 
-with open('new_file.txt') as fp :
+with open('./new_file.txt') as fp :
    fp.write('Hello new world')
