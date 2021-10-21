@@ -42,8 +42,8 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
 print(reg)
 '''
 
-file = 'rank.json'
-if os.path.isfile(file):
+file = './rank.json'
+if os.path.isfile(__file__):
     print("OK")
 else :
     print("Nothing")
