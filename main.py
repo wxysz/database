@@ -45,13 +45,14 @@ print(reg)
 
 # https://github.com/Piorosen/github-Action-HangKik 이슈 자동 생성 및 삭제
 # https://light-tree.tistory.com/236
+# https://www.rdocumentation.org/ 검색 get_file()
 '''
 import os
 from datetime import datetime
 from pytz import timezone
 import time
 import random
-from selenium import webdriver
+from selenium import webdriver 
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from github import Github
@@ -66,12 +67,12 @@ def get_github_repo(access_token, repository_name):
 def upload_github_issue(repo, title, body):
     repo.create_issue(title=title, body=body)
 
-def delete_github_issue(repo):	# 이슈 삭제
-    issues = repo.get_issues(state='open')	# 저장소 이슈를 받아와서 상태=열기
+def delete_github_issue(repo):
+    issues = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
     for issue in issues:
-        if "날짜 발열 테스트" in issue.title:	# 만약 이슈의 제목이 ""와 같다면 
-            issue.edit(state='closed')	# 이슈를 수정해서 상태=닫기
-            print(issue.title)
+        if "날짜 발열 테스트" in issue.title:	# 저장소 제목이 날짜 발열 테스트 라면 
+            issue.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
+            print(issue.title)	# 이슈 제목을 프린트
 
 
 githubCall = False
@@ -128,9 +129,9 @@ for student in students:
     student.append(temp)
     call(student[0], student[1], student[2], temp)
 
-if githubCall:	# 깃허브콜? 
-    repo = get_github_repo(access_token, repository_name)	# 저장송에 토큰과 저장소 이름을 받아와서
-    delete_github_issue(repo)	# 이 함수로 보냄
+if githubCall:
+    repo = get_github_repo(access_token, repository_name)
+    delete_github_issue(repo)
         
     title = f"날짜 발열 테스트 : ({today_data})"
     body = makeBody(students)
