@@ -41,6 +41,3 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 print(reg)
 '''
-
-with open('rank.json') as fp :
-   fp.write('Hello new world')
