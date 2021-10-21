@@ -32,11 +32,21 @@ with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_f
     json.dump(rank, make_file, ensure_ascii = False, indent="\t")
 
 rank_json = json.dumps(rank, sort_keys=True)  # dict()를 str로 변경 rank, indent=2, sort_keys=True
+
+if 
+repo.delete_file('rank.json', "commit message", rank_json)
+
 # repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
 # repo.create_file('rank.json', "commit message", rank_json) # 실행가능
-repo.delete_file('rank.json', "commit message", rank_json)
+
 '''
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 print(reg)
 '''
+
+file = 'rank.json'
+if os.path.isfile(file):
+  print("Yes. it is a file")
+else :
+  print("Nothing")
