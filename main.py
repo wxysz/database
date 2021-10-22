@@ -24,6 +24,8 @@ repository_name = "database" # 내 저장소 이름 필수로 바꿔야함
 
 repo = Github(access_token).get_user().get_repo(repository_name)
 
+issue_title1 = ''
+
 issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for issue1 in issues1:
     if "날짜 발열 테스트" in issue1.title:	# 저장소 제목이 날짜 발열 테스트 라면 
