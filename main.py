@@ -32,7 +32,7 @@ for issue1 in issues1:
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
        
 issue_title = f"리그 순위표({today_date})"
-print("오늘의 시간: " + today)
+print(f"리그 순위표({today})")
 print(issue_title)
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
