@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron:  '00 20 * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
-
+    - cron:  '59 13 * * *' # 주기적으로 실행하기 위한 스케줄링 UST 가 default. UST 23:00는 한국시간 08:01
+                           # 현재 한국시간 11시에 맞춤
 jobs:
   build:
 
