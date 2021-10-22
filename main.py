@@ -31,7 +31,7 @@ for issue1 in issues1:
         issue_title1 = f"확인({issue1.title})"
 
 
-issues2 = repo.get_file(state='open')	
+
 issue_title = f"리그 순위표({today_date})"
 
 
