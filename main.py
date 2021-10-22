@@ -28,7 +28,7 @@ issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 �
 for issue1 in issues1:
     if "날짜 발열 테스트" in issue1.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
-        print(issue1.title)	# 이슈 제목을 프린트
+        print(f"제목 확인({issue1.title}))	# 이슈 제목을 프린트
 		
 issue_title = f"리그 순위표({today_date})"
 		
