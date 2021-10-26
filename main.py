@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from github import Github
 from datetime import datetime
 from pytz import timezone
+import panadas
 
 # 시간을 알려주는 부분
 seoul_timezone = timezone('Asia/Seoul')
@@ -33,6 +34,27 @@ for issue1 in issues1:
        
 print(f"리그 순위표({today})")
 
+##########################################
+# 1. Create Pandas Dataframe
+from IPython.display import display
+# Take a 2D array as input to your DataFrame 
+my_2darray = np.array([[1, 2, 3], [4, 5, 6]])
+display(pd.DataFrame(my_2darray))
+
+# Take a dictionary as input to your DataFrame 
+my_dict = {"a": ['1', '3'], "b": ['1', '2'], "c": ['2', '4']}
+display(pd.DataFrame(my_dict))
+
+# Take a DataFrame as input to your DataFrame 
+my_df = pd.DataFrame(data=[4,5,6,7], index=range(0,4), columns=['A'])
+display(pd.DataFrame(my_df))
+
+# Take a Series as input to your DataFrame
+my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})
+display(pd.DataFrame(my_series))
+
+
+#############################################
 
 with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
     json.dump(rank, make_file, ensure_ascii = False)    # , indent="\t"
