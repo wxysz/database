@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 from github import Github
 from datetime import datetime
 from pytz import timezone
-import pandas as pd
 from pandas import Series, DataFrame
 from IPython.display import display
 
@@ -44,11 +43,11 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
+rj = rank[league1]
+print(rj)
 
-df = pd.DataFrame(rank)
+df = DataFrame(rank)
 display(df)
-dff = DataFrame(rank)
-display(dff)
 
 
 
