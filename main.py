@@ -42,7 +42,17 @@ datafa = {
 }
  
 df = pd.DataFrame(datafa)
+print(df)
 
+from pandas import Series, DataFrame
+
+daeshin = {'open':  [11650, 11100, 11200, 11100, 11000],
+           'high':  [12100, 11800, 11200, 11100, 11150],
+           'low' :  [11600, 11050, 10900, 10950, 10900],
+           'close': [11900, 11600, 11000, 11100, 11050]}
+
+daeshin_day = DataFrame(daeshin)
+print(daeshin_day)
 '''
 # 1. Create Pandas Dataframe
 from IPython.display import display
