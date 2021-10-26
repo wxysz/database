@@ -43,7 +43,7 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
-rj = rank[league1]
+rj = rank.league1
 print(rj)
 
 df = DataFrame(rank)
