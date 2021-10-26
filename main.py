@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from github import Github
 from datetime import datetime
 from pytz import timezone
-import panadas
+import pandas
 
 # 시간을 알려주는 부분
 seoul_timezone = timezone('Asia/Seoul')
