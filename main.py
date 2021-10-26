@@ -23,6 +23,11 @@ req = requests.get(url)
 soup = BeautifulSoup(req.content, 'html.parser')
 rank = json.loads(soup.text)
 
+with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
+    json.dump(rank, make_file, ensure_ascii = False)    # , indent="\t"
+
+rank_json = json.dumps(rank, sort_keys=True)  # dict()를 str로 변경 rank, indent=2, sort_keys=True
+
 access_token = os.environ['MY_GITHUB_TOKEN']
 repository_name = "database" # 내 저장소 이름 필수로 바꿔야함 
 
@@ -42,17 +47,12 @@ print(f"리그 순위표({today})")
 
 df = pd.DataFrame(rank)
 display(df)
-dff = DataFrame(rank.league1)
+dff = DataFrame(rank_json.league1)
 print(dff)
 
 
 
 #############################################
-
-with open(os.path.join(BASE_DIR, 'rank.json'), 'w+', encoding="utf-8") as make_file:
-    json.dump(rank, make_file, ensure_ascii = False)    # , indent="\t"
-
-rank_json = json.dumps(rank, sort_keys=True)  # dict()를 str로 변경 rank, indent=2, sort_keys=True
 
 # repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
 # repo.create_file('rank.json', "commit message", rank_json) # 실행가능
