@@ -43,13 +43,13 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
-#print(rank.data.league1)
+#print(rank['data']['league1'])
 
-#df = DataFrame(rank)
-#display(df)
+df = DataFrame(rank['data']['league1'])
+display(df)
 
-for key, value in rank['data']['league1'].items(): 
-	print(key, value)
+#for key, value in rank['data']['league1'].items(): 
+#	print(key, value)
 
 #############################################
 
