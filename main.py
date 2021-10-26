@@ -39,22 +39,11 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
-'''
+
 df = pd.DataFrame(rank)
 display(df)
-dff = DataFrame(rank)
+dff = DataFrame(rank[league1])
 print(dff)
-'''
-
-
-# Print out your DataFrame `df` to check it out
-df = pd.DataFrame({"A":[1,4,7], "B":[2,5,8], "C":[3,6,9]})
-display(df)
-
-# Set 'C' as the index of your DataFrame
-df = df.set_index('A')
-display(df)
-
 
 
 
