@@ -37,13 +37,18 @@ print(f"리그 순위표({today})")
 ##########################################
 
  
-df = pd.DataFrame(rank)
-print(df)
+
 
 from pandas import Series, DataFrame
+from IPython.display import display
+
+df = pd.DataFrame(rank)
+display(df)
 
 daeshin_day = DataFrame(rank)
 print(daeshin_day)
+
+
 '''
 # 1. Create Pandas Dataframe
 from IPython.display import display
