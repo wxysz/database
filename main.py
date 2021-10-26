@@ -48,7 +48,7 @@ print(f"리그 순위표({today})")
 df = pd.DataFrame(rank)
 display(df)
 dff = DataFrame(rank)
-print(dff)
+display(dff)
 
 
 
