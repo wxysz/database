@@ -43,12 +43,14 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
-print(rank.data.league1)
+#print(rank.data.league1)
 
-df = DataFrame(rank)
-display(df)
+#df = DataFrame(rank)
+#display(df)
 
-
+x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+for key, value in x.items():
+print(key, value)
 
 #############################################
 
