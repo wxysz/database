@@ -43,7 +43,7 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
-rj = rank_json[league1]
+rj = rank_json[teamName]
 print(rj)
 
 df = DataFrame(rank)
