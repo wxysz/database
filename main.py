@@ -44,9 +44,10 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 ##########################################
 print(f"-------------------------------------------------------------------------------------------")
 
-league1 = rank['data']['league1']['rank'] + rank['data']['league1']['teamName'] + rank['data']['league1']['gameCount'] + rank['data']['league1']['gainPoint'] + rank['data']['league1']['winCnt'] + rank['data']['league1']['tieCnt'] + rank['data']['league1']['lossCnt'] + rank['data']['league1']['gainGoal'] + rank['data']['league1']['lossGoal'] + rank['data']['league1']['gapCnt']
-rank_league1 = DataFrame(league1)
-display(rank_league1)
+# league1 = rank['data']['league1']['rank'] + rank['data']['league1']['teamName'] + rank['data']['league1']['gameCount'] + rank['data']['league1']['gainPoint'] + rank['data']['league1']['winCnt'] + rank['data']['league1']['tieCnt'] + rank['data']['league1']['lossCnt'] + rank['data']['league1']['gainGoal'] + rank['data']['league1']['lossGoal'] + rank['data']['league1']['gapCnt']
+# rank_league1 = DataFrame(league1)
+league1 = DataFrame(rank['data']['league1'])
+display(league1)
 
 print(f"-------------------------------------------------------------------------------------------")
 	
