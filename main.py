@@ -48,8 +48,7 @@ print(f"리그 순위표({today})")
 #df = DataFrame(rank)
 #display(df)
 
-x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
-for key, value in x.items(): 
+for key, value in rank.items(): 
 	print(key, value)
 
 #############################################
