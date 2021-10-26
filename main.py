@@ -7,6 +7,7 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 import pandas as pd
+from IPython.display import display
 
 # 시간을 알려주는 부분
 seoul_timezone = timezone('Asia/Seoul')
@@ -36,21 +37,13 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
- 
-
-
-from pandas import Series, DataFrame
-from IPython.display import display
 
 df = pd.DataFrame(rank)
 display(df)
+dff = DataFrame(rank)
+print(dff)
 
-daeshin_day = DataFrame(rank)
-print(daeshin_day)
 
-
-'''
-# 1. Create Pandas Dataframe
 from IPython.display import display
 # Take a 2D array as input to your DataFrame 
 my_2darray = np.array([[1, 2, 3], [4, 5, 6]])
@@ -67,7 +60,7 @@ display(pd.DataFrame(my_df))
 # Take a Series as input to your DataFrame
 my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})
 display(pd.DataFrame(my_series))
-'''
+
 
 #############################################
 
