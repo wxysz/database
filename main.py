@@ -39,12 +39,12 @@ print(f"리그 순위표({today})")
 
 ##########################################
 
-
+'''
 df = pd.DataFrame(rank)
 display(df)
 dff = DataFrame(rank)
 print(dff)
-
+'''
 
 
 # Take a 2D array as input to your DataFrame 
