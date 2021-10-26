@@ -35,6 +35,15 @@ for issue1 in issues1:
 print(f"리그 순위표({today})")
 
 ##########################################
+datafa = {
+    'year': [2016, 2017, 2018],
+    'GDP rate': [2.8, 3.1, 3.0],
+    'GDP': ['1.637M', '1.73M', '1.83M']
+}
+ 
+df = pd.DataFrame(datafa)
+
+'''
 # 1. Create Pandas Dataframe
 from IPython.display import display
 # Take a 2D array as input to your DataFrame 
@@ -52,7 +61,7 @@ display(pd.DataFrame(my_df))
 # Take a Series as input to your DataFrame
 my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})
 display(pd.DataFrame(my_series))
-
+'''
 
 #############################################
 
