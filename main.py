@@ -49,8 +49,8 @@ print(f"리그 순위표({today})")
 #display(df)
 
 x = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
-for key, value in x.items():
-print(key, value)
+for key, value in x.items(): 
+	print(key, value)
 
 #############################################
 
