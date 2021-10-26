@@ -46,7 +46,9 @@ print(f"리그 순위표({today})")
 
 league1 = DataFrame(rank['data']['league1'])
 display(league1)
-print(##########################################)
+
+print("####################################################################################")
+	
 league2 = DataFrame(rank['data']['league2'])
 display(league1)
 
