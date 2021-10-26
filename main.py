@@ -47,21 +47,15 @@ print(dff)
 '''
 
 
-# Take a 2D array as input to your DataFrame 
-my_2darray = np.array([[1, 2, 3], [4, 5, 6]])
-display(pd.DataFrame(my_2darray))
+# Print out your DataFrame `df` to check it out
+df = pd.DataFrame({"A":[1,4,7], "B":[2,5,8], "C":[3,6,9]})
+display(df)
 
-# Take a dictionary as input to your DataFrame 
-my_dict = {"a": ['1', '3'], "b": ['1', '2'], "c": ['2', '4']}
-display(pd.DataFrame(my_dict))
+# Set 'C' as the index of your DataFrame
+df = df.set_index('A')
+display(df)
 
-# Take a DataFrame as input to your DataFrame 
-my_df = pd.DataFrame(data=[4,5,6,7], index=range(0,4), columns=['A'])
-display(pd.DataFrame(my_df))
 
-# Take a Series as input to your DataFrame
-my_series = pd.Series({"United Kingdom":"London", "India":"New Delhi", "United States":"Washington", "Belgium":"Brussels"})
-display(pd.DataFrame(my_series))
 
 
 #############################################
