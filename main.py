@@ -43,8 +43,10 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-league = [item for item in rank['data']['league1'] if item == rank['data']['league1']['winCnt'] and item == rank['data']['league1']['tieCnt']]
-display(DataFrame(league))
+arr = numpy.array([4, 3, 2, 1])
+new_arr = numpy.delete(arr, [1, 3])
+
+print(new_arr)
 
 
 '''
