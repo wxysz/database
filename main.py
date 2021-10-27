@@ -43,7 +43,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-league = [item for item in rank['data']['league1'] if item == 'winCnt' and item == 'tieCnt' and item == 'lossCnt' and item == 'lossGoal' and item == 'gapCnt' ]
+league = [item for item in rank['data']['league1'] if item == rank['data']['league1']['winCnt'] and item == rank['data']['league1']['tieCnt']]
 display(DataFrame(league))
 
 
