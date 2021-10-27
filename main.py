@@ -43,11 +43,8 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-a = numpy.array(rank['data']['league1'])
-# index = rank['data']['league1']['gameCount']
-# new_a = numpy.delete(a, index)
-
-display(DataFrame(a))
+lst = [item for item in rank['data']['league1'] if item == 'year' and item == 'league']
+display(DataFrame(lst))
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
