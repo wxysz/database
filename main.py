@@ -44,9 +44,9 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 ##########################################
 
 arr = numpy.array(rank['data']['league1'])
-new_arr = numpy.delete(arr, rank['data']['league1']['gameCount'])
+new_arr = numpy.delete(arr, 'gameCount')
 
-print(new_arr)
+display(DataFrame(new_arr))
 
 
 '''
