@@ -79,6 +79,9 @@ for l1 in range(12) :
 	# del rank['data']['league1'][l1]['gameCount']	# 경기수
 	
 	league1 = rank['data']['league1']
+	
+	league1=dict(zip(p, list(league1.values()))) 
+	
 print(league1)
 # display(DataFrame(league1))
 
