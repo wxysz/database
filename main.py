@@ -42,14 +42,11 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
-d = {1:2,3:4}
-p = [ 'a', 'b']
-d=dict(zip(p,list(d.values()))) 
-print(d)
 
-#rank['data']['league1'][0]['teamName'] = '구단명'
+p = [ 'teamName', '구단명']
+rank['data']['league1'][0]=dict(zip(p,list(rank['data']['league1'][0].values()))) 
+print(rank['data']['league1'][0])
 
-#print(rank['data']['league1'][0])
 
 
 '''
