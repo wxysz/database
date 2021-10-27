@@ -42,50 +42,69 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
+print(f"-------------------------------------------------------------------------------------------")
 
-for i in range(12) :
-	del rank['data']['league1'][i]['year']	# 년도
-	del rank['data']['league1'][i]['leagueId']	# 리그 아이디
-	del rank['data']['league1'][i]['teamId']	# 팀 아이디
-	del rank['data']['league1'][i]['winCnt']	# 승
-	del rank['data']['league1'][i]['winNqty']	# 모름
-	del rank['data']['league1'][i]['winEqty']	# 모름
-	del rank['data']['league1'][i]['winTKqty']	# 모름
-	del rank['data']['league1'][i]['tieCnt']	# 무
-	del rank['data']['league1'][i]['lossCnt']	# 패
-	del rank['data']['league1'][i]['gapCnt']	# 득실
-	del rank['data']['league1'][i]['lossGoal']	# 실점
-	del rank['data']['league1'][i]['homepage']	# 홈페이지
-	del rank['data']['league1'][i]['lang']	# 언어
-	del rank['data']['league1'][i]['stadium']	# 경기장
-	del rank['data']['league1'][i]['recordType']	# 타입
-	del rank['data']['league1'][i]['assignGameType']	# 모름
-	del rank['data']['league1'][i]['game01']	# 첫
-	del rank['data']['league1'][i]['game02']	# 둘
-	del rank['data']['league1'][i]['game03']	# 셋
-	del rank['data']['league1'][i]['game04']	# 넷
-	del rank['data']['league1'][i]['game05']	# 다
-	del rank['data']['league1'][i]['game06']	# 여
-	# del rank['data']['league1'][i]['teamName']	# 팀 이름
-	# del rank['data']['league1'][i]['rank']	# 팀 순위
-	# del rank['data']['league1'][i]['gainPoint']	# 승점
-	# del rank['data']['league1'][i]['gainGoal']	# 득점
-	# del rank['data']['league1'][i]['gameCount']	# 경기수
+for l1 in range(12) :
+	del rank['data']['league1'][l1]['year']	# 년도
+	del rank['data']['league1'][l1]['leagueId']	# 리그 아이디
+	del rank['data']['league1'][l1]['teamId']	# 팀 아이디
+	del rank['data']['league1'][l1]['winCnt']	# 승
+	del rank['data']['league1'][l1]['winNqty']	# 모름
+	del rank['data']['league1'][l1]['winEqty']	# 모름
+	del rank['data']['league1'][l1]['winTKqty']	# 모름
+	del rank['data']['league1'][l1]['tieCnt']	# 무
+	del rank['data']['league1'][l1]['lossCnt']	# 패
+	del rank['data']['league1'][l1]['gapCnt']	# 득실
+	del rank['data']['league1'][l1]['lossGoal']	# 실점
+	del rank['data']['league1'][l1]['homepage']	# 홈페이지
+	del rank['data']['league1'][l1]['lang']	# 언어
+	del rank['data']['league1'][l1]['stadium']	# 경기장
+	del rank['data']['league1'][l1]['recordType']	# 타입
+	del rank['data']['league1'][l1]['assignGameType']	# 모름
+	del rank['data']['league1'][l1]['game01']	# 첫
+	del rank['data']['league1'][l1]['game02']	# 둘
+	del rank['data']['league1'][l1]['game03']	# 셋
+	del rank['data']['league1'][l1]['game04']	# 넷
+	del rank['data']['league1'][l1]['game05']	# 다
+	del rank['data']['league1'][l1]['game06']	# 여
+	# del rank['data']['league1'][l1]['teamName']	# 팀 이름
+	# del rank['data']['league1'][l1]['rank']	# 팀 순위
+	# del rank['data']['league1'][l1]['gainPoint']	# 승점
+	# del rank['data']['league1'][l1]['gainGoal']	# 득점
+	# del rank['data']['league1'][l1]['gameCount']	# 경기수
 	
 league1 = DataFrame(rank['data']['league1'])
 display(league1)
-
-
-# print(rank['data']['league1'])
-
-
-'''
 print(f"-------------------------------------------------------------------------------------------")
 
-league1 = DataFrame(rank['data']['league1'])
-display(league1)
-
-print(f"-------------------------------------------------------------------------------------------")
+for l2 in range(10) :
+	del rank['data']['league2'][l2]['year']	# 년도
+	del rank['data']['league2'][l2]['leagueId']	# 리그 아이디
+	del rank['data']['league2'][l2]['teamId']	# 팀 아이디
+	del rank['data']['league2'][l2]['winCnt']	# 승
+	del rank['data']['league2'][l2]['winNqty']	# 모름
+	del rank['data']['league2'][l2]['winEqty']	# 모름
+	del rank['data']['league2'][l2]['winTKqty']	# 모름
+	del rank['data']['league2'][l2]['tieCnt']	# 무
+	del rank['data']['league2'][l2]['lossCnt']	# 패
+	del rank['data']['league2'][l2]['gapCnt']	# 득실
+	del rank['data']['league2'][l2]['lossGoal']	# 실점
+	del rank['data']['league2'][l2]['homepage']	# 홈페이지
+	del rank['data']['league2'][l2]['lang']	# 언어
+	del rank['data']['league2'][l2]['stadium']	# 경기장
+	del rank['data']['league2'][l2]['recordType']	# 타입
+	del rank['data']['league2'][l2]['assignGameType']	# 모름
+	del rank['data']['league2'][l2]['game01']	# 첫
+	del rank['data']['league2'][l2]['game02']	# 둘
+	del rank['data']['league2'][l2]['game03']	# 셋
+	del rank['data']['league2'][l2]['game04']	# 넷
+	del rank['data']['league2'][l2]['game05']	# 다
+	del rank['data']['league2'][l2]['game06']	# 여
+	# del rank['data']['league2'][l2]['teamName']	# 팀 이름
+	# del rank['data']['league2'][l2]['rank']	# 팀 순위
+	# del rank['data']['league2'][l2]['gainPoint']	# 승점
+	# del rank['data']['league2'][l2]['gainGoal']	# 득점
+	# del rank['data']['league2'][l2]['gameCount']	# 경기수
 	
 league2 = DataFrame(rank['data']['league2'])
 display(league2)
