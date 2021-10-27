@@ -43,7 +43,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-for i in range(0, 11) :
+for i in range(11) :
 	del rank['data']['league1'][i]['year']	# 년도
 	del rank['data']['league1'][i]['leagueId']	# 리그 아이디
 	del rank['data']['league1'][i]['teamId']	# 팀 아이디
