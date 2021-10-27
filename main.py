@@ -43,15 +43,11 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-# lst = [item for item in rank['data']['league1'] if item == ['league1']['year'] and item == ['league1']['league']]
+l = ['Alice', 'Bob', 'Charlie', 'Bob', 'Dave']
 
-df = rank['data']['league1']
+l.remove('Alice', 'Bob')
+print(l)
 
-dfr = df.remove(rank['data']['league1']['year'])
-
-league1 = DataFrame(dfr)
-
-display(league1)
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
