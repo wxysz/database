@@ -42,10 +42,26 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
-
-
-
 del rank['data']['league1'][0]['year']
+del rank['data']['league1'][0]['leagueId']
+del rank['data']['league1'][0]['teamId']
+del rank['data']['league1'][0]['winNqty']
+del rank['data']['league1'][0]['winEqty']
+del rank['data']['league1'][0]['winTKqty']
+del rank['data']['league1'][0]['tieCnt']
+del rank['data']['league1'][0]['lossCnt']
+del rank['data']['league1'][0]['lossGoal']
+del rank['data']['league1'][0]['homepage']
+del rank['data']['league1'][0]['lang']
+del rank['data']['league1'][0]['stadium']
+del rank['data']['league1'][0]['recordType']
+del rank['data']['league1'][0]['assignGameType']
+del rank['data']['league1'][0]['game01']
+del rank['data']['league1'][0]['game02']
+del rank['data']['league1'][0]['game03']
+del rank['data']['league1'][0]['game04']
+del rank['data']['league1'][0]['game05']
+del rank['data']['league1'][0]['game06']
 
 #league1_rank = DataFrame(league1)
 
