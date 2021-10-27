@@ -80,19 +80,6 @@ for l1 in range(12) :
 league1 = rank['data']['league1']
 
 league1=dict(zip(p, list(league1[0].values())))
-league1=dict(zip(p, list(league1[1].values())))
-league1=dict(zip(p, list(league1[2].values())))
-league1=dict(zip(p, list(league1[3].values())))
-league1=dict(zip(p, list(league1[4].values())))
-league1=dict(zip(p, list(league1[5].values())))
-league1=dict(zip(p, list(league1[6].values())))
-league1=dict(zip(p, list(league1[7].values())))
-league1=dict(zip(p, list(league1[8].values())))
-league1=dict(zip(p, list(league1[9].values())))
-league1=dict(zip(p, list(league1[10].values())))
-league1=dict(zip(p, list(league1[11].values())))
-league1=dict(zip(p, list(league1[12].values())))
-
 	
 display(DataFrame(league1))
 
