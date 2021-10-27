@@ -110,7 +110,7 @@ league2 = DataFrame(rank['data']['league2'])
 display(league2)
 
 print(f"-------------------------------------------------------------------------------------------")
-'''
+
 #############################################
 
 # repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
