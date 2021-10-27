@@ -43,16 +43,16 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-league1 = rank['data']['league1']
-
-league1.remove(rank['data']['league1'][0]['year'])
-
-league1_rank = DataFrame(league1)
-
-display(league1_rank)
 
 
-print(league1)
+del rank['data']['league1'][0]['year']
+
+#league1_rank = DataFrame(league1)
+
+#display(league1_rank)
+
+
+print(rank['data']['league1'])
 
 
 '''
