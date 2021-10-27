@@ -45,11 +45,15 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 league1 = rank['data']['league1']
 
-del league1[1]
+del league1[2]
 
 league1_rank = DataFrame(league1)
 
 display(league1_rank)
+
+
+print(league1)
+
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
