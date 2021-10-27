@@ -43,17 +43,23 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-display(rank['data']['league1'][0]['rank'])
-
-lst = [4, 3, 2, 3, 1]
-league = [item for item in lst if item != 3 and item != 1]
-print(league)
+league = [item for item in rank['data']['league1'] if item == 'winCnt' and item == 'tieCnt' and item == 'lossCnt' and item == 'lossGoal' and item == 'gapCnt' ]
+display(DataFrame(league))
 
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
 
-# league1 = rank['data']['league1']['rank'] + rank['data']['league1']['teamName'] + rank['data']['league1']['gameCount'] + rank['data']['league1']['gainPoint'] + rank['data']['league1']['winCnt'] + rank['data']['league1']['tieCnt'] + rank['data']['league1']['lossCnt'] + rank['data']['league1']['gainGoal'] + rank['data']['league1']['lossGoal'] + rank['data']['league1']['gapCnt']
+# league1 = rank['data']['league1']['rank'] + 
+rank['data']['league1']['teamName'] + 
+rank['data']['league1']['gameCount'] + 
+rank['data']['league1']['gainPoint'] + 
+rank['data']['league1']['winCnt'] + 
+rank['data']['league1']['tieCnt'] + 
+rank['data']['league1']['lossCnt'] + 
+rank['data']['league1']['gainGoal'] + 
+rank['data']['league1']['lossGoal'] + 
+rank['data']['league1']['gapCnt']
 # rank_league1 = DataFrame(league1)
 league1 = DataFrame(rank['data']['league1'])
 display(league1)
