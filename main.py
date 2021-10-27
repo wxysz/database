@@ -43,8 +43,8 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 rank['data']['league1']
-rank['data']['league1'][0]['teamName'].replace('구단')
-print(rank['data']['league1'])
+rank['data']['league1'][0]['teamName'].replace(['구단'])
+print(rank['data']['league1'][0])
 
 
 '''
