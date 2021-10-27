@@ -42,10 +42,15 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
-rank['data']['league1']
-rank['data']['league1'][0]['teamName'].replace(['구단'])
-print(rank['data']['league1'][0])
 
+
+
+
+for i in rank['data']['league1']:
+temp = i.replace("teamName", "구단")
+result.append(temp)
+
+print(result)
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
