@@ -63,12 +63,12 @@ del rank['data']['league1'][0]['game04']
 del rank['data']['league1'][0]['game05']
 del rank['data']['league1'][0]['game06']
 
-#league1_rank = DataFrame(league1)
+league1 = DataFrame(rank['data']['league1'])
 
-#display(league1_rank)
+display(league1)
 
 
-print(rank['data']['league1'])
+# print(rank['data']['league1'])
 
 
 '''
