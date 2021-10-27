@@ -44,8 +44,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 ##########################################
 
 p = [ "year", "leagueId", "teamId", "구단", "순위", "승점", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점", "lossGoal", "경기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
-for t1 in range(12) :
-	rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][t1].values()))) 
+rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][0].values()))) 
 	
 print(f"-------------------------------------------------------------------------------------------")
 
