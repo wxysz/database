@@ -42,10 +42,13 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
-arr = numpy.array(rank['data']['league1'])
-# new_arr = numpy.delete(arr, np.where((arr == 3) | (arr == 1)))
 
-display(DataFrame(arr))
+
+del rank['data']['league1'][1]
+
+league1 = DataFrame(rank['data']['league1'])
+
+display(league1)
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
