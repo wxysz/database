@@ -42,8 +42,8 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
-arr = np.array(rank['data']['league1'])
-new_arr = np.delete(arr, np.where((arr == 3) | (arr == 1)))
+arr = numpy.array(rank['data']['league1'])
+# new_arr = numpy.delete(arr, np.where((arr == 3) | (arr == 1)))
 
 print(arr)
 
