@@ -45,7 +45,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 arr = numpy.array(rank['data']['league1'])
 # new_arr = numpy.delete(arr, np.where((arr == 3) | (arr == 1)))
 
-print(arr)
+display(DataFrame(arr))
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
