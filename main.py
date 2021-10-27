@@ -44,7 +44,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 ##########################################
 
 p = [ 'teamName', '구단명']
-d=dict(zip(p, list(rank['data']['league1'][0].values()))) 
+d=dict(zip(p, list(rank['data']['league1'].values()))) 
 print(d)
 
 
