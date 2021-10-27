@@ -44,12 +44,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 ##########################################
 
 p = [ "year", "leagueId", "teamId", "구단", "순위", "승점", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점", "lossGoal", "경기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
-rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][0].values()))) 
-print(rank['data']['league1'])
 
-
-
-'''
 print(f"-------------------------------------------------------------------------------------------")
 
 for l1 in range(12) :
@@ -75,6 +70,7 @@ for l1 in range(12) :
 	del rank['data']['league1'][l1]['game04']	# 넷
 	del rank['data']['league1'][l1]['game05']	# 다
 	del rank['data']['league1'][l1]['game06']	# 여
+	rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][l1].values()))) 
 	# del rank['data']['league1'][l1]['teamName']	# 팀 이름
 	# del rank['data']['league1'][l1]['rank']	# 팀 순위
 	# del rank['data']['league1'][l1]['gainPoint']	# 승점
@@ -83,6 +79,7 @@ for l1 in range(12) :
 	
 league1 = DataFrame(rank['data']['league1'])
 display(league1)
+
 print(f"-------------------------------------------------------------------------------------------")
 
 for l2 in range(10) :
@@ -118,7 +115,7 @@ league2 = DataFrame(rank['data']['league2'])
 display(league2)
 
 print(f"-------------------------------------------------------------------------------------------")
-'''
+
 #############################################
 
 # repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
