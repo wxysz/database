@@ -47,7 +47,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 df = rank['data']['league1']
 
-dfr = df.remove('year')
+dfr = df.remove(rank['data']['league1']['year'])
 
 league1 = DataFrame(dfr)
 
