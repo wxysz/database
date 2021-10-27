@@ -49,6 +49,8 @@ p = [ "year", "leagueId", "teamId", "구단", "순위", "승점", "winCnt", "win
 league1 = rank['data']['league1']
 for l1 in range(12) :
 	rank['data']['league1'][l1] = dict(zip(p, list(rank['data']['league1'][l1].values())))
+	del rank['data']['league1'][l1]['year']	# 년도
+	del rank['data']['league1'][l1]['leagueId']	# 리그 아이디
 
 print(rank['data']['league1'])
 
