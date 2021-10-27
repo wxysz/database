@@ -42,6 +42,12 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
+arr = np.array(rank['data']['league1'])
+new_arr = np.delete(arr, np.where((arr == 3) | (arr == 1)))
+
+print(arr)
+
+'''
 print(f"-------------------------------------------------------------------------------------------")
 
 league1 = DataFrame(rank['data']['league1'])
@@ -53,6 +59,7 @@ league2 = DataFrame(rank['data']['league2'])
 display(league2)
 
 print(f"-------------------------------------------------------------------------------------------")
+'''
 #############################################
 
 # repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
