@@ -8,7 +8,7 @@ from datetime import datetime
 from pytz import timezone
 from pandas import Series, DataFrame
 from IPython.display import display
-
+import numpy
 
 # 시간을 알려주는 부분
 seoul_timezone = timezone('Asia/Seoul')
@@ -43,7 +43,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-display(rank_json['data']['league1']['rank'])
+display(rank['data']['league1'][0][2])
 '''
 print(f"-------------------------------------------------------------------------------------------")
 
