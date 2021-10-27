@@ -43,11 +43,8 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-
-
-
-for i in rank['data']['league1'][0]:
-temp = i.replace("teamName", "구단")
+for i in rank['data']['league1']:
+temp = i.replace(["teamName"], ["구단"])
 result.append(temp)
 
 print(result)
