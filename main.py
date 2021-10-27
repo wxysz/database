@@ -43,11 +43,12 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-for i in rank['data']['league1']:
-temp = i.replace(rank['data']['league1'][0]["teamName"], rank['data']['league1'][0]["구단"])
-result.append(temp)
 
-print(result)
+l = ['a','b','c']
+rank['data']['league1'][0]['teamName'] = 'd'
+
+print(rank['data']['league1'][0])
+
 
 '''
 print(f"-------------------------------------------------------------------------------------------")
