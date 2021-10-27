@@ -48,6 +48,7 @@ p = [ "year", "leagueId", "teamId", "구단", "순위", "승점", "winCnt", "win
 print(f"-------------------------------------------------------------------------------------------")
 
 for l1 in range(12) :
+	rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][l1].values()))) 
 	del rank['data']['league1'][l1]['year']	# 년도
 	del rank['data']['league1'][l1]['leagueId']	# 리그 아이디
 	del rank['data']['league1'][l1]['teamId']	# 팀 아이디
@@ -70,7 +71,6 @@ for l1 in range(12) :
 	del rank['data']['league1'][l1]['game04']	# 넷
 	del rank['data']['league1'][l1]['game05']	# 다
 	del rank['data']['league1'][l1]['game06']	# 여
-	rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][l1].values()))) 
 	# del rank['data']['league1'][l1]['teamName']	# 팀 이름
 	# del rank['data']['league1'][l1]['rank']	# 팀 순위
 	# del rank['data']['league1'][l1]['gainPoint']	# 승점
