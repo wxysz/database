@@ -43,8 +43,9 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-p = [ "year", "leagueId", "teamId", "구단", "순위", "승점", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점", "lossGoal", "경기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
-# rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][0].values()))) 
+# p = [ "year", "leagueId", "teamId", "구단", "순위", "승점", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점", "lossGoal", "경기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
+p = [ "구단", "순위", "승점", "득점", "경기" ]
+
 	
 print(f"-------------------------------------------------------------------------------------------")
 
@@ -76,6 +77,7 @@ for l1 in range(12) :
 	# del rank['data']['league1'][l1]['gainPoint']	# 승점
 	# del rank['data']['league1'][l1]['gainGoal']	# 득점
 	# del rank['data']['league1'][l1]['gameCount']	# 경기수
+	rank['data']['league1']=dict(zip(p, list(rank['data']['league1'][l1].values()))) 
 	
 league1 = DataFrame(rank['data']['league1'])
 display(league1)
