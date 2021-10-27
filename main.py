@@ -45,10 +45,11 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 # lst = [item for item in rank['data']['league1'] if item == ['league1']['year'] and item == ['league1']['league']]
 
-league1 = DataFrame(rank['data']['league1'])
+df = rank['data']['league1']
 
-league1.remove('year')
+dfr = df.remove('year')
 
+league1 = DataFrame(dfr)
 
 display(league1)
 
