@@ -48,7 +48,7 @@ p = [ "구단", "순위", "승점", "득점", "경기" ]
 
 league1 = rank['data']['league1']
 league1 = dict(zip(p, list(league1[0].values())))
-display(DataFrame(league1[0]))
+display(DataFrame(league1))
 
 '''	
 print(f"-------------------------------------------------------------------------------------------")
