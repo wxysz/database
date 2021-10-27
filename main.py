@@ -80,7 +80,7 @@ for l1 in range(12) :
 	
 	league1 = rank['data']['league1']
 	
-	league1=dict(zip(p, list(league1.values()))) 
+	league1=dict(zip(p, list(league1[0].values()))) 
 	
 print(league1)
 # display(DataFrame(league1))
