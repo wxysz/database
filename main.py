@@ -42,6 +42,9 @@ for issue1 in issues1:
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
+
+print(rank['data']['league1']['rank'])
+'''
 print(f"-------------------------------------------------------------------------------------------")
 
 # league1 = rank['data']['league1']['rank'] + rank['data']['league1']['teamName'] + rank['data']['league1']['gameCount'] + rank['data']['league1']['gainPoint'] + rank['data']['league1']['winCnt'] + rank['data']['league1']['tieCnt'] + rank['data']['league1']['lossCnt'] + rank['data']['league1']['gainGoal'] + rank['data']['league1']['lossGoal'] + rank['data']['league1']['gapCnt']
@@ -55,7 +58,10 @@ league2 = DataFrame(rank['data']['league2'])
 display(league2)
 
 print(f"-------------------------------------------------------------------------------------------")
+'''
 #############################################
+
+
 
 # repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
 # repo.create_file('rank.json', "commit message", rank_json) # 실행가능
