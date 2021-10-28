@@ -43,7 +43,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-p = [ "year", "leagueId", "teamId", "구단", "순위", "승점 ", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점", "lossGoal", "경기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
+p = [ "year", "leagueId", "teamId", "구단/t", "순위/t", "승점/t", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점/t", "lossGoal", "경기/t", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
 
 
 
@@ -80,7 +80,7 @@ for l1 in range(12) :
 	# del rank['data']['league1'][l1]['gameCount']	# 경기수
 	
 league1 = DataFrame(rank['data']['league1'])
-display(league1, indent='\t')
+display(league1)
 
 
 print(f"-------------------------------------------------------------------------------------------")
@@ -116,7 +116,7 @@ for l2 in range(10) :
 	# del rank['data']['league2'][l2]['gameCount']	# 경기수
 	
 league2 = DataFrame(rank['data']['league2'])
-display(league2, indent='\t')
+display(league2)
 
 print(f"-------------------------------------------------------------------------------------------")
 
