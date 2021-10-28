@@ -36,7 +36,7 @@ issue_title = f"저장 시간({today_date})"
 
 file = repo.get_contents('rank.json')
 
-repo.update_file('rank.json', "file update", rank_json)
+# repo.update_file('rank.json', "file update", rank_json, file.sha)
 
 issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for issue1 in issues1:
@@ -44,7 +44,8 @@ for issue1 in issues1:
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 
 # repo.delete_file('rank.json', "file delete", file.sha ) # 실행가능
-
+# repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
+# repo.create_file('rank.json', "commit message", rank_json) # 실행가능
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
@@ -127,14 +128,15 @@ print(f"------------------------------------------------------------------------
 
 #############################################
 
-# repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
-# repo.create_file('rank.json', "commit message", rank_json) # 실행가능
 
-'''
+
+
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
-print(reg)
-'''
+
+display(DataFrame(reg))
+
+
 
 # https://github.com/Piorosen/github-Action-HangKik 이슈 자동 생성 및 삭제
 # https://light-tree.tistory.com/236
