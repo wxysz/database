@@ -36,7 +36,7 @@ issue_title = f"저장 시간({today_date})"
 
 file = repo.get_contents('rank.json')
 
-repo.update_file('rank.json', "file update", rank_json, file.sha)
+repo.update_file('rank.json', "file update", rank_json)
 
 issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for issue1 in issues1:
