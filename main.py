@@ -34,7 +34,7 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"저장 시간({today_date})"
 
-file = repo.get_contents("rank.json")
+# file = repo.get_contents("rank.json")
 
 issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for issue1 in issues1:
