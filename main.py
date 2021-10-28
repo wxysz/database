@@ -79,10 +79,8 @@ for l1 in range(12) :
 	# del rank['data']['league1'][l1]['gainGoal']	# 득점
 	# del rank['data']['league1'][l1]['gameCount']	# 경기수
 	
-league1 = rank['data']['league1']
-	
-display(DataFrame(league1), indent='/t')
-
+league1 = DataFrame(rank['data']['league1'], indent='\t')
+display(league1, indent='\t')
 
 
 print(f"-------------------------------------------------------------------------------------------")
@@ -117,8 +115,8 @@ for l2 in range(10) :
 	# del rank['data']['league2'][l2]['gainGoal']	# 득점
 	# del rank['data']['league2'][l2]['gameCount']	# 경기수
 	
-league2 = DataFrame(rank['data']['league2'])
-display(league2)
+league2 = DataFrame(rank['data']['league2'], indent='\t')
+display(league2, indent='\t')
 
 print(f"-------------------------------------------------------------------------------------------")
 
