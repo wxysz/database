@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from github import Github
 from datetime import datetime
 from pytz import timezone
-from pandas import Series, DataFrame, pandas
+from pandas import DataFrame
 from IPython.display import display
 
 
