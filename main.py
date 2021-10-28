@@ -7,7 +7,7 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 from pandas import DataFrame
-from IPython import display
+from IPython.display import display
 
 
 # 시간을 알려주는 부분
@@ -44,7 +44,7 @@ for closed_issue in open_issues:
     if issue_title in closed_issue.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         closed_issue.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 
-	
+file_contents = repo.get_contents(state='open')
 
 
 # repo.update_file('rank.json', "file update", rank_json, file.sha)	
