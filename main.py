@@ -40,7 +40,7 @@ repo.create_issue(title=issue_title, body=issue_body)
 
 open_issues = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for closed_issue in open_issues:
-    if "날짜 발열 테스트" in open_issues.title:	# 저장소 제목이 날짜 발열 테스트 라면 
+    if "날짜 발열 테스트" in closed_issue.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         closed_issue.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 	
 file = repo.get_contents('rank.json')
