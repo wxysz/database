@@ -43,7 +43,7 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-p = [ "year", "leagueId", "teamId", "구단 명", "순 위", "승 점", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득 점", "lossGoal", "경 기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
+p = [ "year", "leagueId", "teamId", "구단    ", "순위 ", "승점 ", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득", "lossGoal", "경기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
 
 print(f"-------------------------------------------------------------------------------------------")
 
