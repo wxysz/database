@@ -42,7 +42,7 @@ for issue1 in issues1:
 # file = repo.get_file_contents("rank1.json")
 	
 # repo.delete_file('rank1.json', "commit message", sha = sha )
-repo.update_file('rank1.json', "commit message", rank_json, rank_json.sha)
+repo.update_file('rank1.json', "commit message", rank_json, rank_json)
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
