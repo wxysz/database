@@ -46,8 +46,8 @@ for closed_issue in open_issues:
 
 # repo.update_file('rank.json', "file update", rank_json, file.sha)	
 
-repo.delete_file('rank.json', "file delete", rank_json ) # 실행가능
-repo.create_file('rank.json', "file create", rank_json) # 실행가능
+repo.delete_file('rank.json', "file delete", file.sha) # 실행가능
+repo.create_file('rank.json', "file create", file.sha) # 실행가능
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
