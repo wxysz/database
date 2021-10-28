@@ -7,7 +7,7 @@ from github import Github
 from datetime import datetime
 from pytz import timezone
 from pandas import DataFrame
-from IPython.display import display
+from IPython import display
 
 
 # 시간을 알려주는 부분
