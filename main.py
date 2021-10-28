@@ -44,7 +44,7 @@ for issue1 in issues1:
 # repo.delete_file('rank.json', "commit message", file.sha ) # 실행가능
 
 
-repo.update_file('rank.json', "commit message", rank_json, file.sha, branch="master")
+# repo.update_file('rank.json', "commit message", rank_json, file.sha)
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
