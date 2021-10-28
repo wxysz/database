@@ -36,6 +36,8 @@ issue_title = f"저장 시간({today_date})"
 
 file = repo.get_contents('rank.json')
 
+repo.update_file('rank.json', "file update", rank, file.sha)
+
 issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for issue1 in issues1:
     if "날짜 발열 테스트" in issue1.title:	# 저장소 제목이 날짜 발열 테스트 라면 
@@ -43,8 +45,6 @@ for issue1 in issues1:
 
 # repo.delete_file('rank.json', "file delete", file.sha ) # 실행가능
 
-
-# repo.update_file('rank.json', "file update", rank_json, file.sha)
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
