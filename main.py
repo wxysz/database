@@ -40,7 +40,7 @@ for issue1 in issues1:
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 
 #repo.delete_file('rank1.json', "commit message", )
-repo.update_file('rank1.json', "commit message", rank_json) # 실행가능
+repo.update_file('rank1.json', "commit message", rank) # 실행가능
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
