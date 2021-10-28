@@ -34,15 +34,17 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"저장 시간({today_date})"
 
-file = repo.get_contents('rank.json')
-
-# repo.update_file('rank.json', "file update", rank_json, file.sha)
+repo.create_issue(title=issue_title, body=rank_json)
 
 issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for issue1 in issues1:
     if "날짜 발열 테스트" in issue1.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 
+
+file = repo.get_contents('rank.json')
+
+# repo.update_file('rank.json', "file update", rank_json, file.sha)	
 # repo.delete_file('rank.json', "file delete", file.sha ) # 실행가능
 # repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
 # repo.create_file('rank.json', "commit message", rank_json) # 실행가능
@@ -130,12 +132,12 @@ print(f"------------------------------------------------------------------------
 
 
 
-
+'''
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
 
 display(DataFrame(reg))
-
+'''
 
 
 # https://github.com/Piorosen/github-Action-HangKik 이슈 자동 생성 및 삭제
