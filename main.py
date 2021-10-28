@@ -39,7 +39,7 @@ for issue1 in issues1:
     if "날짜 발열 테스트" in issue1.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 
-file1 = repo.edit_files(os.path.join(BASE_DIR, 'rank.json'), state='open')
+file1 = repo.delete_file(os.path.join(BASE_DIR, 'rank.json'), state='open')
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
