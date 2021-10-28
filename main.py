@@ -34,17 +34,17 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"저장 시간({today_date})"
 
-# file = repo.get_contents("rank.json")
+file = repo.get_contents(rank_json)
 
 issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기
 for issue1 in issues1:
     if "날짜 발열 테스트" in issue1.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 
-# repo.delete_file('rank.json', "commit message", file.sha ) # 실행가능
+# repo.delete_file('rank.json', "file delete", file.sha ) # 실행가능
 
 
-# repo.update_file('rank.json', "commit message", rank_json, file.sha)
+# repo.update_file('rank.json', "file update", rank_json, file.sha)
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
