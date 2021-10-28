@@ -33,7 +33,8 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 
 issue_title = f"저장 시간({today_date})"
 issue_body = f"저장 시간({today_date})"
-file = repo.get_contents('rank.json')
+
+file = repo.get_contents('rank.json', ref="rank")
 
 repo.create_issue(title=issue_title, body=issue_body)
 
