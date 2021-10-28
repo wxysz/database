@@ -38,12 +38,14 @@ issues1 = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 �
 for issue1 in issues1:
     if "날짜 발열 테스트" in issue1.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         issue1.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
-       
+
+file1 = repo.get_file(state='open')
+	
 print(f"-----------------------리그 순위표({today})-----------------------")
 
 ##########################################
 
-change = [ "year", "leagueId", "teamId", "구단/t", "순위/t", "승점/t", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점/t", "lossGoal", "경기/t", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
+change = [ "year", "leagueId", "teamId", "구단", "순위", "승점", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점", "lossGoal", "경기", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
 
 print(f"-------------------------------------------------------------------------------------------")
 
