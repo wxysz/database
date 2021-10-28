@@ -43,14 +43,9 @@ open_issues = repo.get_issues(state='open')	# 저장소의 이슈를 받아와�
 for closed_issue in open_issues:
     if issue_title in closed_issue.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         closed_issue.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
-	repo.delete_file('rank.json', "file delete", file.sha )
-
-
-
 
 # repo.update_file('rank.json', "file update", rank_json, file.sha)	
 # repo.delete_file('rank.json', "file delete", file.sha ) # 실행가능
-# repo.create_issue(title=issue_title, body=rank_json)  # 실행가능 
 # repo.create_file('rank.json', "commit message", rank_json) # 실행가능
 	
 print(f"-----------------------리그 순위표({today})-----------------------")
