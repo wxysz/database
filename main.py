@@ -84,7 +84,7 @@ display(DataFrame(league1))
 print(f"-------------------------------------------------------------------------------------------")
 
 for l2 in range(10) :
-	rank['data']['league1'][l2] = dict(zip(p, list(rank['data']['league1'][l2].values())))
+	rank['data']['league2'][l2] = dict(zip(p, list(rank['data']['league2'][l2].values())))
 	del rank['data']['league2'][l2]['year']	# 년도
 	del rank['data']['league2'][l2]['leagueId']	# 리그 아이디
 	del rank['data']['league2'][l2]['teamId']	# 팀 아이디
