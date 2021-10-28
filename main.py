@@ -43,14 +43,12 @@ print(f"-----------------------리그 순위표({today})-----------------------"
 
 ##########################################
 
-p = [ "year", "leagueId", "teamId", "구단/t", "순위/t", "승점/t", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점/t", "lossGoal", "경기/t", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
-
-
+change = [ "year", "leagueId", "teamId", "구단/t", "순위/t", "승점/t", "winCnt", "winNqty", "winEqty", "winTKqty", "tieCnt", "lossCnt", "gapCnt", "득점/t", "lossGoal", "경기/t", "homepage", "lang", "stadium", "recordType", "assignGameType", "game01", "game02", "game03", "game04", "game05", "game06" ]
 
 print(f"-------------------------------------------------------------------------------------------")
 
 for l1 in range(12) :
-	rank['data']['league1'][l1] = dict(zip(p, list(rank['data']['league1'][l1].values())))
+	rank['data']['league1'][l1] = dict(zip(change, list(rank['data']['league1'][l1].values())))
 	del rank['data']['league1'][l1]['year']	# 년도
 	del rank['data']['league1'][l1]['leagueId']	# 리그 아이디
 	del rank['data']['league1'][l1]['teamId']	# 팀 아이디
@@ -86,7 +84,7 @@ display(league1)
 print(f"-------------------------------------------------------------------------------------------")
 
 for l2 in range(10) :
-	rank['data']['league2'][l2] = dict(zip(p, list(rank['data']['league2'][l2].values())))
+	rank['data']['league2'][l2] = dict(zip(change, list(rank['data']['league2'][l2].values())))
 	del rank['data']['league2'][l2]['year']	# 년도
 	del rank['data']['league2'][l2]['leagueId']	# 리그 아이디
 	del rank['data']['league2'][l2]['teamId']	# 팀 아이디
