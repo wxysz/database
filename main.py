@@ -34,8 +34,8 @@ repo = Github(access_token).get_user().get_repo(repository_name)
 issue_title = f"저장 시간({today_date})"
 issue_body = f"저장 시간({today_date})"
 
-file = repo.get_contents('rank.json')
-
+# file = repo.get_contents('rank.json')
+file = repo.get_contents('test.json')
 repo.create_issue(title=issue_title, body=issue_body)
 
 open_issues = repo.get_issues(state='open')	# 저장소의 이슈를 받아와서 상태를 열기	
@@ -44,7 +44,7 @@ for closed_issue in open_issues:
     if issue_title in closed_issue.title:	# 저장소 제목이 날짜 발열 테스트 라면 
         closed_issue.edit(state='closed')	# 이슈를 에디트 해서 상태를 닫기
 
-# repo.update_file(file.path, "file update", rank_json, file.sha)
+repo.update_file(file.path, "file update", "txt", file.sha)
 # repo.delete_file('rank.json', "file delete", file.sha) # 실행가능
 # repo.create_file('rank.json', "file create", rank_json) # 실행가능
 	
