@@ -129,8 +129,6 @@ print(f"------------------------------------------------------------------------
 
 #############################################
 
-
-
 '''
 with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
     reg = json.load(f)
@@ -138,6 +136,7 @@ with open (os.path.join(BASE_DIR, 'rank.json'), "r", encoding="utf-8") as f:
 display(DataFrame(reg))
 '''
 
+# https://pygithub.readthedocs.io/
 # https://github.com/Piorosen/github-Action-HangKik 이슈 자동 생성 및 삭제
 # https://light-tree.tistory.com/236
 
