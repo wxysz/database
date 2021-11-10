@@ -1,6 +1,6 @@
-beautifulsoup4==4.x.x
-requests==2.x.x
+beautifulsoup4==4.x
+requests==2.x
 pytz==2021.3
 PyGithub==1.x
 pandas==1.x.x
-ipython==7.x.x
+ipython==7.x
