@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+<style>
+.bg-yellow { fill: #f2ba1d; }
+.bg-black { fill: #050505; }
+.stroke-black { stroke: #050505; stroke-width: 8; fill: none; }
+.text-serif { font-family: 'Times New Roman', Times, 'Georgia', serif; font-weight: bold; fill: #050505; }
+.text-korean { font-family: 'Batang', 'Gungsuh', 'Myeongjo', serif; font-weight: bold; fill: #050505; }
+</style>
+​<defs>
+<!-- Path for Top English Text -->
+<path id="textArcTop" d="M 82 300 A 218 218 0 0 1 518 300" fill="none"/>
+<!-- Path for Bottom Korean Text -->
+<path id="textArcBottom" d="M 102 300 A 198 198 0 0 0 498 300" fill="none"/>
+</defs>
+​<!-- Outer Black Border -->
+<circle cx="300" cy="300" r="295" class="bg-black" />
+​<!-- Outer Yellow Ring -->
+<circle cx="300" cy="300" r="290" class="bg-yellow" />
+​<!-- Inner Black Border -->
+<circle cx="300" cy="300" r="215" class="bg-black" stroke="#050505" stroke-width="4" />
+​<!-- Top Text: Seoul Raiders -->
+<text font-size="64" class="text-serif" letter-spacing="2">
+<textPath href="#textArcTop" startOffset="50%" text-anchor="middle">
+Seoul Raiders
+</textPath>
+</text>
+​<!-- Side Dots -->
+<circle cx="95" cy="228" r="10" class="bg-black" />
+<circle cx="505" cy="228" r="10" class="bg-black" />
+​<!-- Bottom Text: 서울 레이더스 -->
+<text font-size="52" class="text-korean" letter-spacing="4">
+<textPath href="#textArcBottom" startOffset="50%" text-anchor="middle">
+서 울   레 이 더 스
+</textPath>
+</text>
+​<!-- Central Emblem Group -->
+<g transform="translate(0,0)">
+<!-- Central 'R' Letter -->
+<path class="bg-yellow" d="
+M 210,145
+H 355
+C 405,145 425,175 425,215
+C 425,255 395,275 350,282
+L 410,410
+C 425,440 445,445 460,445
+V 450
+H 345
+L 290,325
+H 270
+V 425
+C 270,440 280,445 295,445
+V 450
+H 210
+V 445
+C 225,445 235,440 235,425
+V 170
+C 235,155 225,150 210,150
+Z
+M 270,185
+V 255
+H 335
+C 360,255 375,245 375,220
+C 375,195 360,185 335,185
+Z
+"/>
+​<!-- Lightning Bolt Overlay -->
+<polygon class="bg-black" points="190,315 420,278 300,278 440,150 250,315" />
+<polygon class="bg-yellow" points="160,440 428,150 310,278 425,278 190,315 285,315" />
+</g>
+</svg>
